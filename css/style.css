@@ -5,22 +5,10 @@ body {margin: 0;
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-    min-height: 100px;
-    background-color: #000;
-}
-
-img{
-	margin: 20px;
-	border-radius: 50%;
-	overflow: hidden;
-	width: 25%;
-}
 
 
 
-/* Da du ikke var her sidst, har jeg addet media queires til forskellige device-sizes */ 
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...} 
