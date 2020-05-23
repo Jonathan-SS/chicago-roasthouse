@@ -1,5 +1,11 @@
 /*EN KOMMENTAR SER SÅDAN HER UD*/
 
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -34,6 +40,11 @@ h1 h2 h3 h4 {
 }
 
 h1 {
+    color: #804844;
+    text-align: center;
+}
+
+h2 {
     color: #804844;
     text-align: center;
 }
@@ -119,28 +130,80 @@ h1 {
 
 /*menukort*/
 
-
-
 .flex-container {
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
-
-    flex-wrap: wrap;
-
-
 }
 
 .menupunkt {
     width: 100%;
-    height: 150px;
+    height: 120px;
     margin-bottom: 25px;
     background-image: url("/images/tree.png");
     background-size: cover;
+    padding: 3%;
+}
+
+.roastkoed {
+    width: 50%;
 
 }
 
+.ribs {
+    width: 50%;
+}
+
+.turkey {
+    width: 50%;
+}
+
+h3 {
+    color: #fff;
+}
+
+.knapperne {
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-content: space-between;
+
+}
+
+button {
+    border: none;
+    width: 100%;
+    background-color: #fec312;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4vw;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 50px
+}
+
+.frem {
+    box-shadow: 3px 3px lightgrey;
+}
+
+.tilbage {
+    box-shadow: 3px 3px lightgrey;
+}
+
+.knap1:hover {
+    background-color: #fec312;
+    color: white;
+    opacity: 70%;
+}
+
+/*kartoffel underside */
+
+.pommes
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
 
 
