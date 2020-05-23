@@ -309,22 +309,22 @@ header {
 
 /*footer*/
 
-footer{
-	background-color: #804844;
-	display: flex;
-	align-items: center;
-	height: 100px;
-	position: relative;
-	justify-content: space-around;
-	align-content: center;
+footer {
+    background-color: #804844;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
 
 }
 
-footer div{
-	width: 20%;
-	height: auto;
-	display: flex;
-	align-items: center;
+footer div {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
 
 }
 
