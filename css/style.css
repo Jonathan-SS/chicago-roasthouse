@@ -39,6 +39,58 @@ h1 {
 }
 
 /*forsiden*/
+.vid {
+    width: 80%;
+    margin: 25px 10px;
+}
+
+/*
+.container {
+    display: flex;
+    background: #ccc;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.vid {
+    width: 100%;
+}
+
+.c-video {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.buttons button {
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttons button:before {
+    content: '/f133';
+    font-family: 'Font Awesome 5 Free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+
+}
+*/
+
 .knap {
     border: none;
     background-color: #fec312;
@@ -64,11 +116,11 @@ h1 {
     opacity: 70%;
 }
 
-.forsideind{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.forsideind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*menukort*/
@@ -101,68 +153,72 @@ nav a {
     height: 80%;
     width: 15%;
     z-index: 20;
-	font-size: 1em;
+    font-size: 1em;
 
 }
 
 
-.current{
-	background-color:#fdf4e6;
-	
+.current {
+    background-color: #fdf4e6;
+
 }
 
 /*dopup lavet med inspiration fra:https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /* drop up knap */
 .dropbtn {
-	 background-color: transparent;
+    background-color: transparent;
     border: none;
 }
 
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-	width: 20%;
-  display: inline-block;
+    position: relative;
+    width: 20%;
+    display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropcontent {
     display: none;
-  position: absolute;
-	    bottom: 70px;
+    position: absolute;
+    bottom: 70px;
     right: 0px;
-  background-color: #804844;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 60;
+    background-color: #804844;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 60;
 }
 
 /* Links inside the dropdown */
 .dropcontent a {
-  color: #fdf4e6;
-  text-decoration: none;
-  display: block;
+    color: #fdf4e6;
+    text-decoration: none;
+    display: block;
 }
 
-.dropcontent h1{
-	color: #fdf4e6;
-	text-align: left;
-	margin-right: 20%
+.dropcontent h1 {
+    color: #fdf4e6;
+    text-align: left;
+    margin-right: 20%
 }
 
-.dropcontent a{
-	text-align: center;
-	width: 70%;
-	
+.dropcontent a {
+    text-align: center;
+    width: 70%;
+
 }
 
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #804844}
+.dropdown-content a:hover {
+    background-color: #804844
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show {
+    display: block;
+}
 
 
 
