@@ -62,7 +62,6 @@ h2 {
     position: relative;
     margin: auto;
     width: 80%;
-    margin: 25px 0px;
 }
 
 .play {
@@ -96,7 +95,7 @@ h2 {
     display: inline;
 }
 
-.knap {
+.knap2 {
     border: none;
     background-color: #fec312;
     color: white;
@@ -172,7 +171,7 @@ h3 {
 
 }
 
-button {
+.button {
     border: none;
     width: 100%;
     background-color: #fec312;
@@ -207,36 +206,6 @@ button {
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
 
 
-/*nav*/
-nav {
-    background-color: #804844;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    overflow: visible;
-    margin-top: auto;
-
-}
-
-
-nav a {
-    text-align: center;
-    justify-content: space-around;
-    margin: auto;
-    text-decoration: none;
-    color: #fdf4e6;
-    height: 80%;
-    width: 15%;
-    z-index: 20;
-    font-size: 1em;
-
-}
 
 
 .current {
@@ -293,7 +262,7 @@ nav a {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #804844
+    background-color: #804844;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -338,8 +307,57 @@ header {
 }
 
 
+/*footer*/
+
+footer{
+	background-color: #804844;
+	display: flex;
+	align-items: center;
+	height: 100px;
+	position: relative;
+	justify-content: space-around;
+	align-content: center;
+
+}
+
+footer div{
+	width: 20%;
+	height: auto;
+	display: flex;
+	align-items: center;
+
+}
+
+/*nav*/
+nav {
+    background-color: #804844;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    margin-top: auto;
+
+}
 
 
+nav a {
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    text-decoration: none;
+    color: #fdf4e6;
+    height: 80%;
+    width: 15%;
+    z-index: 20;
+    font-size: 1em;
+
+}
 
 
 
