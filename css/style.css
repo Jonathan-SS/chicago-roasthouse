@@ -106,7 +106,7 @@ nav a {
 }
 
 
-nav a:active{
+.current{
 	background-color:#fdf4e6;
 	
 }
