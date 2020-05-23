@@ -142,8 +142,7 @@ h2 {
     margin-bottom: 20px;
     background-image: url("/images/tree.png");
     background-size: cover;
-
-
+    position: relative;
 }
 
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
@@ -203,6 +202,16 @@ h3 {
 
     width: 50%;
     padding-left: 3%
+}
+
+.pris {
+
+    color: #fff;
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    font-size: 4.3vw;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* Kurv */
