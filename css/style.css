@@ -64,11 +64,11 @@ h2 {
     width: 80%;
 }
 
-.play {
+.playknap {
     z-index: 50;
     position: absolute;
-    top: 75%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
     opacity: 0.6;
     transform: translate(-50%, -50%);
     background-color: transparent;
@@ -76,11 +76,11 @@ h2 {
 
 }
 
-.pause {
+.pauseknap {
     z-index: 50;
     position: absolute;
-    top: 75%;
-    left: 15%;
+    top: 50%;
+    left: 50%;
     opacity: 0.6;
     transform: translate(-50%, -50%);
     background-color: transparent;
