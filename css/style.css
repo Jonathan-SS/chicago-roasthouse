@@ -27,6 +27,7 @@ a {
 p {
 
     font-family: 'Libre Franklin', sans-serif;
+    padding: 0px 20px;
 }
 
 h1 h2 h3 h4 {
@@ -38,6 +39,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #804844;
+    text-align: center;
+}
 /*forsiden*/
 
 
