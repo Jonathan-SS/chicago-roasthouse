@@ -9,6 +9,10 @@
     <!--Husk unik title til alle sider-->
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
@@ -23,29 +27,51 @@
     <hr>
     <main>
         <h1>Vælg kartofler</h1>
-    </main>
+        <div class="knapperne"><a href="menu.html"><button class="button tilbage">Tilbage</button></a> <a href="salat.html"><button class="button frem">Frem</button></a></div>
 
-    <img src="images/menu.png" alt="">
-
-  <header> <a href="index.html" class="logo"><img src="images/cr_logo.png" alt="logo"></a>
-        <div id="tele"> <a href="tel:00-000-000"><img src="images/phone.png" alt="telefon ikon"></a> </div>
-        <div id="lokation"><a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img src="images/pin_aarhus.png" alt="lokation">
-                <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
-
-            </a> </div>
-    </header>
-    <hr>
-    <main>
-        <h1>Vælg salat</h1>
+        <br><br>
+        <div class="flex-container">
+            <div class="menupunkt">
+                <h3>Pomfritter</h3><br>
+                <img src="images/pommes.png" alt="pomfritter" class="pommes">
+                <p></p>
+            </div>
+            <div class="menupunkt">
+                <h3>Bagt kartoffel m. hvidløgssmør</h3><br>
+                <img src="images/bagtkartoffel.png" alt="bagtkartoffelhvidløg" class="potatogarlic">
+                <p></p>
+            </div>
+            <div class="menupunkt">
+                <h3>Bagt kartoffel m. baconsmør</h3><br>
+                <img src="images/potatobacon.png" alt="bagkartoffelbacon" class="potatobacon">
+                <p></p>
+            </div>
+            <div class="menupunkt">
+                <h3>Håndskårne kartoffelbåde</h3><br>
+                <img src="images/kartoffelbod.png" alt="kartoffelbåde" class="kartoffelbod">
+                <p></p>
+            </div>
+            <div class="menupunkt">
+                <h3>Gratinerede flødekartofler</h3><br>
+                <img src="images/turkey.png" alt="turkey" class="turkey">
+                <p></p>
+            </div>
+        </div>
     </main>
 
     <nav> <a href="kurv.html"><img src="images/kurv.png" alt="" class="navb">Kurv</a> <a href="menu.html"><img src="images/menu.png" alt="" class="navb">Menu</a> <a href=""><img src="images/selskab.png" alt="" class="navb">Selskab</a>
         <div class="dropdown">
             <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere"></button>
             <div id="mydropdown" class="dropcontent">
-                <a href="koedet.html"><h1>Kødet</h1></a>
-                <a href="om.html"><h1>Om os</h1></a>
-                <a href="#"><h1>Kontakt</h1></a> </div>
+                <a href="koedet.html">
+                    <h1>Kødet</h1>
+                </a>
+                <a href="om.html">
+                    <h1>Om os</h1>
+                </a>
+                <a href="#">
+                    <h1>Kontakt</h1>
+                </a> </div>
         </div>
     </nav>
 
@@ -53,4 +79,6 @@
 
 
     <script src="script/script.js"></script>
-</body></html>
+</body>
+
+</html>

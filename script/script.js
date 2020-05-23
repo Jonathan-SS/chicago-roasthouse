@@ -13,17 +13,17 @@ knap.addEventListener("click", function(){
 	vid.play();
 	knap.classList.toggle("gem");
 	pause.classList.toggle("vis");
-	
-	
-	
+
+
+
 });
 
 pause.addEventListener("click",function(){
 	vid.pause();
 	knap.classList.toggle("gem");
 	pause.classList.toggle("vis");
-	
-	
+
+
 });
 
 
