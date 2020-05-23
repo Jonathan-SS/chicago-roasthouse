@@ -49,11 +49,6 @@ h2 {
     color: #804844;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-/*forsiden*/
 
 
 .video {
@@ -155,19 +150,6 @@ h2 {
     font-size: 4vw;
 }
 
-.roastkoed {
-    width: 50%;
-
-}
-
-.ribs {
-    width: 50%;
-}
-
-.turkey {
-    width: 50%;
-}
-
 h3 {
     color: #fff;
 }
@@ -210,23 +192,12 @@ h3 {
     opacity: 70%;
 }
 
-/*kartoffel underside */
+/* alt mad */
 
-.pommes {
-
-    width: 60%;
-}
-
-.potatogarlic {
+.mad {
 
     width: 50%;
 }
-
-.potatobacon {
-
-    width: 50%;
-}
-
 
 
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
