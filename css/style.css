@@ -39,57 +39,46 @@ h1 {
 }
 
 /*forsiden*/
-.vid {
-    width: 80%;
-    margin: 25px 10px;
+
+
+.video{
+	
+	width: 100%;
+	
 }
 
-/*
-.container {
-    display: flex;
-    background: #ccc;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.vidcontain{
+	position: relative;
+	margin: auto;
+	width: 80%;
 }
 
-.vid {
-    width: 100%;
+.play{
+	z-index: 50;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+	opacity: 0.6;
+	transform: translate(-50%, -50%);
+	
 }
 
-.c-video {
-    width: 100%;
-    max-width: 800px;
-    position: relative;
+.pause{
+	z-index: 50;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+	opacity: 0.6;
+	transform: translate(-50%, -50%);
 }
 
-.controls {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.7);
+.gem{
+	display: none;
 }
 
-.buttons button {
-    background: none;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
+.vis{
+	display: inline;
 }
-
-.buttons button:before {
-    content: '/f133';
-    font-family: 'Font Awesome 5 Free';
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    font-size: 28px;
-    color: #fff;
-
-}
-*/
 
 .knap {
     border: none;
