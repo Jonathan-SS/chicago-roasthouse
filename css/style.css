@@ -105,6 +105,12 @@ nav a {
 
 }
 
+
+nav a:active{
+	background-color:#fdf4e6;
+	
+}
+
 /*dopup lavet med inspiration fra:https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /* drop up knap */
 .dropbtn {
