@@ -142,12 +142,15 @@ h2 {
     margin-bottom: 25px;
     background-image: url("/images/tree.png");
     background-size: cover;
-    padding: 3%;
+
 }
+
+/* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
 
 .menupunkt h3 {
 
     font-size: 4vw;
+    padding: 3%;
 }
 
 h3 {
@@ -159,13 +162,13 @@ h3 {
     display: flex;
     width: 80%;
     margin: auto;
-    align-content: space-between;
+    justify-content: space-around;
 
 }
 
 .button {
     border: none;
-    width: 100%;
+    width: 180px;
     background-color: #fec312;
     color: white;
     padding: 15px 32px;
@@ -197,12 +200,23 @@ h3 {
 .mad {
 
     width: 50%;
+    padding: 3%;
 }
 
+/* Kurv */
 
-/* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
+.flex-container2 {
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    display: flex;
+    background-image: url("/images/tree.png");
+}
 
-
+.kurven {
+    margin-bottom: 10px;
+    padding: 10%;
+}
 
 
 .current {
