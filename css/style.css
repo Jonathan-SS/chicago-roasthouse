@@ -171,7 +171,7 @@ h3 {
 
 }
 
-button {
+.button {
     border: none;
     width: 100%;
     background-color: #fec312;
@@ -206,36 +206,6 @@ button {
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
 
 
-/*nav*/
-nav {
-    background-color: #804844;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    overflow: visible;
-    margin-top: auto;
-
-}
-
-
-nav a {
-    text-align: center;
-    justify-content: space-around;
-    margin: auto;
-    text-decoration: none;
-    color: #fdf4e6;
-    height: 80%;
-    width: 15%;
-    z-index: 20;
-    font-size: 1em;
-
-}
 
 
 .current {
@@ -358,7 +328,36 @@ footer div{
 	
 }
 
+/*nav*/
+nav {
+    background-color: #804844;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    margin-top: auto;
 
+}
+
+
+nav a {
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    text-decoration: none;
+    color: #fdf4e6;
+    height: 80%;
+    width: 15%;
+    z-index: 20;
+    font-size: 1em;
+
+}
 
 
 
