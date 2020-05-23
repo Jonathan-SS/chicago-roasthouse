@@ -41,43 +41,47 @@ h1 {
 /*forsiden*/
 
 
-.video{
-	
-	width: 100%;
-	
+.video {
+
+    width: 100%;
+
 }
 
-.vidcontain{
-	position: relative;
-	margin: auto;
-	width: 80%;
+.vidcontain {
+    position: relative;
+    margin: auto;
+    width: 80%;
 }
 
-.play{
-	z-index: 50;
-	position: absolute;
-	top: 50%;
-  left: 50%;
-	opacity: 0.6;
-	transform: translate(-50%, -50%);
-	
+.play {
+    z-index: 50;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    opacity: 0.6;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+
 }
 
-.pause{
-	z-index: 50;
-	position: absolute;
-	top: 50%;
-  left: 50%;
-	opacity: 0.6;
-	transform: translate(-50%, -50%);
+.pause {
+    z-index: 50;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    opacity: 0.6;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
 }
 
-.gem{
-	display: none;
+.gem {
+    display: none;
 }
 
-.vis{
-	display: inline;
+.vis {
+    display: inline;
 }
 
 .knap {
