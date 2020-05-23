@@ -139,11 +139,16 @@ h2 {
 
 .menupunkt {
     width: 100%;
-    height: 120px;
+    height: 10%;
     margin-bottom: 25px;
     background-image: url("/images/tree.png");
     background-size: cover;
     padding: 3%;
+}
+
+.menupunkt h3 {
+
+    font-size: 4vw;
 }
 
 .roastkoed {
@@ -203,7 +208,23 @@ h3 {
 
 /*kartoffel underside */
 
-.pommes
+.pommes {
+
+    width: 60%;
+}
+
+.potatogarlic {
+
+    width: 50%;
+}
+
+.potatobacon {
+
+    width: 50%;
+}
+
+
+
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
 
 
