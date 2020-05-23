@@ -23,6 +23,8 @@
 
 
             </a> </div>
+		
+		
     </header>
     <hr>
 
@@ -37,7 +39,13 @@
             <button id="pauseknap" class="pauseknap gem"><img src="images/pauseknap.png" alt=""></button>
         </div>
         <a href="menu.html"><button class="knap2 knap1 knap">BESTIL</button></a>
-        <img src="images/info.png" alt="infografik" id="info">
+	<picture id="info">
+	  <source media="(max-width:700px)" srcset="images/info.png">
+	  <source media="(min-width:700px)" srcset="images/info_pc.png">
+	  <img src="images/info.png" alt="infographic" >
+	</picture>
+        
+		
 
 
     </main>
