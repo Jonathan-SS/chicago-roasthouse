@@ -388,7 +388,7 @@ footer {
 
 }
 
-.flex-container{
+main{
 	margin-bottom: 100px;
 }
 
@@ -454,6 +454,13 @@ nav a {
     font-size: 2.5vh;
 }
 
+main{
+	margin-bottom: 100px;
+}
+
+.forsideind{
+	margin-bottom: 100px;
+}
 
 @media only screen and (max-width: 700px) {
 	.merelap{
