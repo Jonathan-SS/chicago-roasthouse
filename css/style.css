@@ -215,6 +215,28 @@ h3 {
     font-family: 'Roboto Slab', serif;
 }
 
+/* Underside - om kødet */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.garanti {
+    width: 45%;
+}
+
+.udskaering {
+    width: 45%;
+    margin-right: 5%;
+}
+
+
 /* Kurv */
 
 .flex-container2 {
