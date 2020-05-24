@@ -465,63 +465,145 @@ nav a {
 @media only screen and (min-width: 700px) {
 
 
-    /*header*/
-    header {
-        background-color: #804844;
-
-    }
-
-    .logo {
-        width: 20%;
-
-    }
-
-
-    #tele {
-        display: none;
-    }
-
-    #lokation {
-        display: none;
-
-    }
-
-    nav {
-        display: none;
-    }
-
-
-
-    /*footer*/
-
-    footer {
-        background-color: #804844;
-        display: flex;
-        width: 100%;
-        height: auto;
-        align-items: center;
-        position: relative;
-        justify-content: space-between;
-        align-content: center;
-
-    }
-
-    .fotdiv {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        margin: auto;
-        width: 7%;
-
-
-
-    }
-
-    .fotdiv h1 {
-        font-family: 'Vast Shadow', cursive;
-        color: #fdf4e6;
-        font-size: 1.5vw;
-
-
-    }
+   		/*header*/
+header {
+ background-color: #804844;
+	
 }
+
+	.logo{
+		width: 15%;
+		
+	}
+
+
+#tele {
+display: none;
+}
+
+#lokation {
+	display: none;
+
+}
+	
+	
+	
+	/*nav*/
+nav {
+    background-color: transparent;
+    position: initial;
+    bottom: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    margin-top: 0;
+
+}
+
+
+nav a {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    color: #fdf4e6;
+    height: 100%;
+    width: 20%;
+    z-index: 20;
+
+}
+	
+	header {
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: -2;
+}
+	
+	.mobil{
+		display: none;
+	}
+
+	nav h1{
+		color: #fdf4e6;
+		
+	}
+
+	.mere{
+		margin: auto;
+	}
+	
+	.merelap h1{
+		text-align: center;
+	}
+	
+	nav h1, .merelap{
+		font-size: 2vw;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.dropbtn h1{
+		color: #fdf4e6;
+	}
+	
+	.kurvlap{
+		order: 2;
+	}
+	
+	.kurvlap img{
+		width: 30%
+	}
+	
+	.dropdown{
+		text-align: center;
+	}
+	
+
+	
+	
+	/*footer*/
+
+footer {
+    background-color: #804844;
+    display: flex;
+	width: 100%;
+	height: auto;
+	align-items: center;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+	
+	
+
+
+}
+
+	.fotdiv{
+		display: flex;
+		align-content: center;
+		align-items: center;
+		margin: auto;
+		width:7%;
+
+	
+		
+	}
+	
+	.fotdiv h1{
+		 font-family: 'Vast Shadow', cursive;
+		color: #fdf4e6;
+		font-size: 1.5vw;
+		
+		
+	}
+}
+
+
