@@ -205,6 +205,13 @@ h3 {
     padding-left: 3%
 }
 
+.afhent {
+    width: 18%;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+}
+
 .pris {
 
     color: #fff;
