@@ -124,6 +124,8 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+	width: 80%;
+	margin: auto;
 }
 
 /*menukort*/
@@ -212,6 +214,28 @@ h3 {
     font-size: 4.3vw;
     font-family: 'Roboto Slab', serif;
 }
+
+/* Underside - om kødet */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.garanti {
+    width: 45%;
+}
+
+.udskaering {
+    width: 45%;
+    margin-right: 5%;
+}
+
 
 /* Kurv */
 
@@ -351,7 +375,7 @@ footer div {
 /*nav*/
 nav {
     background-color: #804844;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -418,6 +442,13 @@ nav a {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 700px) {
 
+<<<<<<< HEAD
+=======
+	.logo{
+		width: 15%;
+
+	}
+>>>>>>> origin/master
 
     /*header*/
     header {
@@ -430,6 +461,15 @@ nav a {
 
     }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+	/*footer*/
+>>>>>>> origin/master
 
     #tele {
         display: none;
