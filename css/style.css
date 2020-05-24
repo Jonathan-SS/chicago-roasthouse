@@ -61,6 +61,7 @@ h2 {
     position: relative;
     margin: auto;
     margin: 25px 0px;
+    z-index: -1;
 }
 
 .playknap {
@@ -256,6 +257,7 @@ h3 {
     margin-bottom: 10px;
     padding: 10%;
 }
+
 .current {
     background-color: #fdf4e6;
 
@@ -282,7 +284,7 @@ h3 {
     position: absolute;
     bottom: 80px;
     right: 0px;
-    background-color:#fdf4e6 ;
+    background-color: #fdf4e6;
     min-width: 160px;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
     z-index: 60;
@@ -294,7 +296,7 @@ h3 {
     display: block;
     text-align: center;
     width: 100%;
-    margin:0;
+    margin: 0;
 }
 
 .dropcontent h1 {
@@ -305,7 +307,7 @@ h3 {
 
 /* Change color of dropdown links on hover */
 .dropcontent a:hover {
-  background-color: #804844;
+    background-color: #804844;
 }
 
 /* Change color of dropdown links on hover */
@@ -403,8 +405,8 @@ footer {
 
 }
 
-main{
-	margin-bottom: 100px;
+main {
+    margin-bottom: 100px;
 }
 
 footer div {
@@ -427,8 +429,9 @@ nav {
 
 
 }
-nav h1{
-	color: #fdf4e6;
+
+nav h1 {
+    color: #fdf4e6;
 }
 
 
@@ -447,9 +450,11 @@ nav a {
 
 /* om os underside style */
 
+/* om os underside style */
+
 .leifprofil {
     width: 100%;
-    padding: 10px 20px;
+    padding: 2% 4%;
 }
 
 .omosflex {
@@ -458,29 +463,34 @@ nav a {
     flex-direction: row;
 }
 
+#omossoloet {
+    display: none;
+}
+
 .jubileum {
     width: 70%;
     display: block;
     margin: 0 auto;
-    padding: 30px 0px 15px 0px;
+    padding: 5% 0px 2.5% 0px;
 }
 
 .omoscitat {
     font-size: 2.5vh;
 }
 
-main{
-	margin-bottom: 100px;
+main {
+    margin-bottom: 100px;
 }
 
-.forsideind{
-	margin-bottom: 100px;
+.forsideind {
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 700px) {
-	.merelap{
-		display: none;
-	}
+    .merelap {
+        display: none;
+    }
+
     footer {
         display: none;
 
@@ -490,7 +500,9 @@ main{
         display: none
     }
 
-	nav h1{font-size: 4vw;}
+    nav h1 {
+        font-size: 4vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -613,28 +625,55 @@ main{
         position: relative;
         justify-content: space-between;
         align-content: center;
-
-
-
-
     }
 
-    .fotdiv {
-        display: flex;
-        align-content: center;
-        align-items: center;
-        margin: auto;
-        width: 7%;
-
-
-
+    /* om os underside style laptop */
+    .leifprofil {
+        width: 42%;
+        margin: 2% 0px 2% 55%;
     }
 
-    .fotdiv h1 {
-        font-family: 'Vast Shadow', cursive;
-        color: #fdf4e6;
-        font-size: 1.5vw;
-
-
+    .omostxt {
+        margin: 4% 55% 0px 0px;
     }
+
+    #omossoloet {
+        display: block;
+    }
+
+    #omossoloto {
+        display: none;
+    }
+
+
+    .jubileum {
+        width: 30%;
+    }
+
+    .jubileumtxt {
+        margin: 0.2% 30%;
+    }
+
+
+
+}
+
+.fotdiv {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 7%;
+
+
+
+}
+
+.fotdiv h1 {
+    font-family: 'Vast Shadow', cursive;
+    color: #fdf4e6;
+    font-size: 1.5vw;
+
+
+}
 }
