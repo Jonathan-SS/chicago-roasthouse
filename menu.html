@@ -22,7 +22,98 @@
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
             </a> </div>
-		<!-- NAVIGATION -->
+    </header>
+    <hr>
+    <main>
+        <h1> Menukort</h1><br>
+        <div class="knapperne"><a href="index.html"><button class="button tilbage">Tilbage</button></a> <a href="kartoffel.html"><button class="button frem">Frem</button></a></div>
+        <br>
+        <div class="flex-container">
+            <div class="menupunkt">
+                <h3>Chicago Roast</h3>
+                <img src="images/roast.png" alt="roastkoed" class="mad">
+                <p class="pris"> 75,- </p>
+
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+
+            </div>
+            <div class="menupunkt">
+                <h3>Chicago Roast menu</h3>
+                <img src="" alt="roast menu" class="mad">
+                <p class="pris"> 125,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+            </div>
+            <div class="menupunkt">
+                <h3>Spareribs</h3>
+                <img src="images/ribs.png" alt="spareribs" class="mad">
+                <p class="pris">75,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+            </div>
+
+            <div class="menupunkt">
+                <h3>Spareribs menu</h3>
+                <img src="" alt="spareribs menu" class="mad">
+                <p class="pris"> 125,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+            </div>
+            <div class="menupunkt">
+                <h3>Turkey Roast</h3>
+                <img src="images/turkey.png" alt="turkey" class="mad">
+                <p class="pris"> 75,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+            </div>
+            <div class="menupunkt">
+                <h3>Turkey Roast menu</h3>
+                <img src="" alt="turkey" class="mad">
+                <p class="pris"> 125,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- NAVIGATION -->
     <nav> <a href="kurv.html"><img src="images/kurv.png" alt="" class="navb">Kurv</a> <a href="menu.html"><img src="images/menu.png" alt="" class="navb">Menu</a> <a href=""><img src="images/selskab.png" alt="" class="navb">Selskab</a>
         <div class="dropdown">
             <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere"></button>
@@ -39,48 +130,8 @@
         </div>
 
     </nav>
-    </header>
-    <hr>
+    <script src="voresscript.js"></script>
+    <script src="script/nav_script.js"></script>
+</body>
 
-    <main>
-        <h1> Menukort</h1><br>
-        <div class="knapperne"><a href="index.html"><button class="button tilbage">Tilbage</button></a> <a href="kartoffel.html"><button class="button frem">Frem</button></a></div>
-        <br>
-        <div class="flex-container">
-            <div class="menupunkt">
-                <h3>Chicago Roast</h3>
-                <img src="images/roast.png" alt="roastkoed" class="mad">
-                <p class="pris"> 75,- </p>
-            </div>
-            <div class="menupunkt">
-                <h3>Chicago Roast menu</h3>
-                <img src="" alt="roast menu" class="mad">
-                <p class="pris"> 125,- </p>
-            </div>
-            <div class="menupunkt">
-                <h3>Spareribs</h3>
-                <img src="images/ribs.png" alt="spareribs" class="mad">
-                <p class="pris">75,- </p>
-            </div>
-
-            <div class="menupunkt">
-                <h3>Spareribs menu</h3>
-                <img src="" alt="spareribs menu" class="mad">
-                <p class="pris"> 125,- </p>
-            </div>
-            <div class="menupunkt">
-                <h3>Turkey Roast</h3>
-                <img src="images/turkey.png" alt="turkey" class="mad">
-                <p class="pris"> 75,- </p>
-            </div>
-            <div class="menupunkt">
-                <h3>Turkey Roast menu</h3>
-                <img src="" alt="turkey" class="mad">
-                <p class="pris"> 125,- </p>
-            </div>
-        </div>
-    </main>
-
-
-<script src="script/nav_script.js"></script>
-</body></html>
+</html>

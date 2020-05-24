@@ -23,22 +23,6 @@
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
             </a> </div>
-        <nav> <a href="kurv.html"><img src="images/kurv.png" alt="" class="navb">Kurv</a> <a href="menu.html"><img src="images/menu.png" alt="" class="navb">Menu</a> <a href=""><img src="images/selskab.png" alt="" class="navb">Selskab</a>
-            <div class="dropdown">
-                <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere"></button>
-                <div id="mydropdown" class="dropcontent">
-                    <a href="koedet.html">
-                        <h1>Kødet</h1>
-                    </a>
-                    <a href="om.html">
-                        <h1>Om os</h1>
-                    </a>
-                    <a href="#">
-                        <h1>Kontakt</h1>
-                    </a> </div>
-            </div>
-        </nav>
-
     </header>
     <hr>
     <main>
@@ -51,28 +35,74 @@
                 <img src="images/pommes.png" alt="pomfritter" class="mad">
                 <img class="afhent" src="images/afhent.png" alt="kun til afhentning">
                 <p class="pris"> 25,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
             </div>
             <div class="menupunkt">
                 <h3>Bagt kartoffel m. hvidløgssmør</h3>
                 <img src="images/bagtkartoffel.png" alt="bagtkartoffelhvidløg" class="mad">
                 <p class="pris"> 20,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
             </div>
             <div class="menupunkt">
                 <h3>Bagt kartoffel m. baconsmør</h3>
                 <img src="images/potatobacon.png" alt="bagkartoffelbacon" class="mad">
                 <p class="pris"> 20,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
             </div>
             <div class="menupunkt">
                 <h3>Håndskårne kartoffelbåde</h3>
                 <img src="images/kartoffelbod.png" alt="kartoffelbåde" class="mad">
+                <img class="afhent" src="images/afhent.png" alt="kun til afhentning">
                 <p class="pris"> 25,- </p>
+                <form class='myform' method='POST' action='#'>
+                    <label for="voresscript.js"> </label><input type='button' value='-' class='qtyminus' field='quantity' />
+                    <!--
+    --><input type='text' name='quantity' value='0' class='qty' />
+                    <!--
+--><input type='button' value='+' class='qtyplus' field='quantity' />
+                </form>
+
             </div>
 
         </div>
     </main>
 
-
-
+    <nav> <a href="kurv.html"><img src="images/kurv.png" alt="" class="navb">Kurv</a> <a href="menu.html"><img src="images/menu.png" alt="" class="navb">Menu</a> <a href=""><img src="images/selskab.png" alt="" class="navb">Selskab</a>
+        <div class="dropdown">
+            <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere"></button>
+            <div id="mydropdown" class="dropcontent">
+                <a href="koedet.html">
+                    <h1>Kødet</h1>
+                </a>
+                <a href="om.html">
+                    <h1>Om os</h1>
+                </a>
+                <a href="#">
+                    <h1>Kontakt</h1>
+                </a> </div>
+        </div>
+    </nav>
 
 
     <script src="script/nav_script.js"></script>

@@ -206,6 +206,7 @@ h3 {
 }
 
 .afhent {
+
     width: 18%;
     position: absolute;
     left: 35%;
@@ -221,28 +222,6 @@ h3 {
     font-size: 4.3vw;
     font-family: 'Roboto Slab', serif;
 }
-
-/* Underside - om kødet */
-
-.flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.flexbox-parent {
-    display: flex;
-    flex-direction: column;
-}
-
-.garanti {
-    width: 45%;
-}
-
-.udskaering {
-    width: 45%;
-    margin-right: 5%;
-}
-
 
 /* Kurv */
 
@@ -322,9 +301,45 @@ h3 {
     display: block;
 }
 
+/* plus og minus knapper */
+
+.myform {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+
+}
+
+.qty {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 100%;
+    background-color: transparent
+}
 
 
+input.qtyplus {
+    width: 25px;
+    color: #804844;
+    height: 25px;
+    border: 1px solid #aaa;
+    background: #fdf4e6;
+    border-radius: 50%;
+    font-size: 100%;
+}
 
+input.qtyminus {
+    color: #804844;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #aaa;
+    font-size: 100%;
+    background: #fdf4e6;
+    border-radius: 50%;
+}
 
 /*header*/
 header {
@@ -382,7 +397,7 @@ footer div {
 /*nav*/
 nav {
     background-color: #804844;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -407,31 +422,8 @@ nav a {
     width: 15%;
     z-index: 20;
     font-size: 1em;
+
 }
-
-
-/* Om os underside stylin' */
-.leifprofil {
-    width: 100%;
-    padding: 10px 20px;
-}
-
-.omosflex {
-    display: flex;
-    flex-direction: row;
-}
-
-.jubileum {
-    width: 70%;
-    display: block;
-    margin: 0 auto;
-    padding: 30px 0px 15px 0px;
-}
-
-.omoscitat {
-    font-size: 2.5vh;
-}
-
 
 @media only screen and (max-width: 700px) {
     footer {
@@ -448,12 +440,6 @@ nav a {
 @media only screen and (min-width: 700px) {
 
 
-    .logo {
-        width: 15%;
-
-    }
-
-
     /*header*/
     header {
         background-color: #804844;
@@ -464,8 +450,6 @@ nav a {
         width: 20%;
 
     }
-
-    /*footer*/
 
 
     #tele {
@@ -494,9 +478,6 @@ nav a {
         position: relative;
         justify-content: space-between;
         align-content: center;
-
-
-
 
     }
 
