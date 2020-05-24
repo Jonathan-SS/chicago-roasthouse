@@ -55,12 +55,15 @@ h2 {
 
     width: 100%;
 
+
+
 }
 
 .vidcontain {
     position: relative;
     margin: auto;
     margin: 25px 0px;
+
 }
 
 .playknap {
@@ -267,7 +270,7 @@ h3 {
     position: absolute;
     bottom: 80px;
     right: 0px;
-    background-color:#fdf4e6 ;
+    background-color: #fdf4e6;
     min-width: 160px;
     box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
     z-index: 60;
@@ -279,7 +282,7 @@ h3 {
     display: block;
     text-align: center;
     width: 100%;
-    margin:0;
+    margin: 0;
 }
 
 .dropcontent h1 {
@@ -290,7 +293,7 @@ h3 {
 
 /* Change color of dropdown links on hover */
 .dropcontent a:hover {
-  background-color: #804844;
+    background-color: #804844;
 }
 
 /* Change color of dropdown links on hover */
@@ -388,8 +391,8 @@ footer {
 
 }
 
-main{
-	margin-bottom: 100px;
+main {
+    margin-bottom: 100px;
 }
 
 footer div {
@@ -409,11 +412,12 @@ nav {
     height: auto;
     display: flex;
     flex-direction: row;
-  
+
 
 }
-nav h1{
-	color: #fdf4e6;
+
+nav h1 {
+    color: #fdf4e6;
 }
 
 
@@ -454,18 +458,19 @@ nav a {
     font-size: 2.5vh;
 }
 
-main{
-	margin-bottom: 100px;
+main {
+    margin-bottom: 100px;
 }
 
-.forsideind{
-	margin-bottom: 100px;
+.forsideind {
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 700px) {
-	.merelap{
-		display: none;
-	}
+    .merelap {
+        display: none;
+    }
+
     footer {
         display: none;
 
@@ -474,8 +479,10 @@ main{
     .headnav {
         display: none
     }
-	
-	nav h1{font-size: 4vw;}
+
+    nav h1 {
+        font-size: 4vw;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
