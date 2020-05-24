@@ -265,37 +265,37 @@ h3 {
 .dropcontent {
     display: none;
     position: absolute;
-    bottom: 70px;
+    bottom: 80px;
     right: 0px;
-    background-color: #804844;
+    background-color:#fdf4e6 ;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
     z-index: 60;
 }
 
 /* Links inside the dropdown */
 .dropcontent a {
-    color: #fdf4e6;
     text-decoration: none;
     display: block;
+    text-align: center;
+    width: 100%;
+    margin:0;
 }
 
 .dropcontent h1 {
-    color: #fdf4e6;
-    text-align: left;
-    margin-right: 20%
-}
-
-.dropcontent a {
+    color: #804844;
     text-align: center;
-    width: 70%;
-
+    margin: 5% 10%;
 }
-
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #804844;
+.dropcontent a:hover {
+  background-color: #804844;
+}
+
+/* Change color of dropdown links on hover */
+.dropcontent h1:hover {
+    color: #fdf4e6;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
