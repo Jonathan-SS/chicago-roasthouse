@@ -388,6 +388,10 @@ footer {
 
 }
 
+.flex-container{
+	margin-bottom: 100px;
+}
+
 footer div {
     width: 20%;
     height: auto;
