@@ -308,7 +308,7 @@ header {
 .logo {
     width: 50%;
     margin-right: auto;
-	padding: 1%;
+    padding: 1%;
 
 }
 
@@ -376,89 +376,109 @@ nav a {
     width: 15%;
     z-index: 20;
     font-size: 1em;
+}
 
+
+/* Om os underside stylin' */
+.leifprofil {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.omosflex {
+    display: flex;
+    flex-direction: row;
+}
+
+.jubileum {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0px 15px 0px;
+}
+
+.omoscitat {
+    font-size: 2.5vh;
 }
 
 
 
 
 @media only screen and (max-width: 700px) {
-	footer{
-		display: none;
-		
-	}	
-	
-	.headnav{
-		display: none
-	}
+    footer {
+        display: none;
+
+    }
+
+    .headnav {
+        display: none
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 700px) {
-	
-	
-		/*header*/
-header {
- background-color: #804844;
-	
+
+
+    /*header*/
+    header {
+        background-color: #804844;
+
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+
+
+    #tele {
+        display: none;
+    }
+
+    #lokation {
+        display: none;
+
+    }
+
+    nav {
+        display: none;
+    }
+
+
+
+    /*footer*/
+
+    footer {
+        background-color: #804844;
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        align-content: center;
+
+
+
+
+    }
+
+    .fotdiv {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: auto;
+        width: 7%;
+
+
+
+    }
+
+    .fotdiv h1 {
+        font-family: 'Vast Shadow', cursive;
+        color: #fdf4e6;
+        font-size: 1.5vw;
+
+
+    }
 }
-
-	.logo{
-		width: 20%;
-		
-	}
-
-
-#tele {
-display: none;
-}
-
-#lokation {
-	display: none;
-
-}
-
-	nav{
-		display: none;
-	}
-	
-	
-	
-	/*footer*/
-
-footer {
-    background-color: #804844;
-    display: flex;
-	width: 100%;
-	height: auto;
-	align-items: center;
-    position: relative;
-    justify-content: space-between;
-    align-content: center;
-	
-	
-
-
-}
-
-	.fotdiv{
-		display: flex;
-		align-content: center;
-		align-items: center;
-		margin: auto;
-		width:7%;
-
-	
-		
-	}
-	
-	.fotdiv h1{
-		 font-family: 'Vast Shadow', cursive;
-		color: #fdf4e6;
-		font-size: 1.5vw;
-		
-		
-	}
-}
-
-
