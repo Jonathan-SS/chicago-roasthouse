@@ -405,12 +405,11 @@ nav {
     height: auto;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
-    overflow: visible;
-    margin-top: auto;
+  
 
+}
+nav h1{
+	color: #fdf4e6;
 }
 
 
@@ -453,6 +452,9 @@ nav a {
 
 
 @media only screen and (max-width: 700px) {
+	.merelap{
+		display: none;
+	}
     footer {
         display: none;
 
@@ -461,6 +463,8 @@ nav a {
     .headnav {
         display: none
     }
+	
+	nav h1{font-size: 4vw;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
