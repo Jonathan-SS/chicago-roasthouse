@@ -1,6 +1,8 @@
-(function () {
+"use strict"
+
+$(function () {
     // This button will increment the value
-    ('.qtyplus').click(function (e) {
+    $('.qtyplus').click(function (e) {
         // Stop acting like a button
         e.preventDefault();
         // Get the field name
@@ -17,7 +19,7 @@
         }
     });
     // This button will decrement the value till 0
-    (".qtyminus").click(function (e) {
+    $(".qtyminus").click(function (e) {
         // Stop acting like a button
         e.preventDefault();
         // Get the field name
