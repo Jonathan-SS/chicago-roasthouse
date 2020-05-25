@@ -329,7 +329,7 @@ h3 {
     margin: auto;
     background-size: cover;
     display: flex;
-    background-image: url("/images/tree.png");
+    background-image: url("images/tree.png");
 }
 
 .kurven {
@@ -401,17 +401,18 @@ h3 {
 /* plus og minus knapper og input */
 .number {
 
-    position: absolute;
-    bottom: 45%;
-    left: 78%;
-    width: 27%;
-    z-index: 4
+   position: absolute;
+    bottom: 30%;
+    right: -5%;
+    width: 30%;
+    z-index: 4;
 }
+
 
 .minus,
 .plus {
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
     min-width: 30px;
     min-height: 30px;
     border-radius: 50%;
@@ -451,7 +452,7 @@ input {
     width: 100%;
     height: 10%;
     margin-bottom: 20px;
-    background-image: url("/images/tree.png");
+    background-image: url("tree.png");
     background-size: cover;
     position: relative;
 
