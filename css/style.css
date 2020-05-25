@@ -1,4 +1,4 @@
-/*EN KOMMENTAR SER SÅDAN HER UD*/
+l/*EN KOMMENTAR SER SÅDAN HER UD*/
 
 * {
     margin: 0;
@@ -363,7 +363,7 @@ h3 {
     margin: 0;
 }
 
-.dropcontent h1 {
+.dropcontent a {
     color: #804844;
     text-align: center;
     margin: 5% 10%;
@@ -375,7 +375,7 @@ h3 {
 }
 
 /* Change color of dropdown links on hover */
-.dropcontent h1:hover {
+.dropcontent a:hover {
     color: #fdf4e6;
 }
 
@@ -518,7 +518,7 @@ nav {
 
 }
 
-nav h1 {
+nav a {
     color: #fdf4e6;
 }
 
@@ -576,6 +576,9 @@ main {
 /* Til vores mobil version */
 
 @media only screen and (max-width: 700px) {
+	
+	
+	
     .merelap {
         display: none;
     }
@@ -589,7 +592,7 @@ main {
         display: none
     }
 
-    nav h1 {
+    nav a {
         font-size: 4vw;
     }
 
@@ -603,8 +606,9 @@ main {
 
     }
 
-    /* kontakt */
-
+	.laptop{
+		display: none;
+	}
 
 
    
@@ -678,7 +682,7 @@ main {
         display: none;
     }
 
-    nav h1 {
+    nav a{
         color: #fdf4e6;
 
     }
@@ -691,14 +695,14 @@ main {
         text-align: center;
     }
 
-    nav h1,
+    nav a,
     .merelap {
         font-size: 2vw;
         margin: auto;
         text-align: center;
     }
 
-    .dropbtn h1 {
+    .dropbtn {
         color: #fdf4e6;
     }
 
@@ -778,7 +782,9 @@ main {
 
 
 
-    .ikontxtlaptop {
+    .laptopikoner a {
+		margin: auto;
+		text-align: center;
         color: #faebd7;
         font-size: 2vh;
     }

@@ -22,33 +22,41 @@
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
             </a> </div>
-        <!-- NAVIGATION -->
-        <nav> <a href="kurv.html" class="kurvlap"><img src="images/kurv.png" alt="">
-                <h1 class="mobil">Kurv</h1>
-            </a> <a href="menu.html"><img src="images/menu.png" alt="menukort" class="navb mobil">
-                <h1>Menu</h1>
-            </a> <a href="#"><img src="images/selskab.png" alt="selskaber" class="navb mobil">
-                <h1>Selskab</h1>
+         <!-- NAVIGATION -->
+        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="">
+                Kurv
+            </a>
+			<a href="kurv.html" class="kurvlap laptop ">
+                Kurv
+            </a> 
+			<a href="menu.html"><img src="images/menu.png" alt="" class="navb mobil">
+                Menu
+            </a> <a href=""><img src="images/selskab.png" alt="" class="navb mobil">
+                Selskab
             </a>
             <div class="dropdown">
-                <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="flere oplysninger" class="mere mobil">
-                    <h1 class="merelap">Mere</h1>
+                <button  class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere mobil">
+                    
                 </button>
+				<button  class="dropbtn merelap" onClick="klikfunktion()"> 
+                    Mere
+                </button>
+				
                 <div id="mydropdown" class="dropcontent">
                     <a href="koedet.html">
-                        <h1>Kødet</h1>
+                        Kødet
                     </a>
                     <a href="om.html">
-                        <h1>Om os</h1>
+                        Om os
                     </a>
                     <a href="kontakt.html">
-                        <h1>Kontakt</h1>
+                        Kontakt
                     </a> </div>
             </div>
         </nav>
 
     </header>
-    <hr>
+    <hr class="mobil">
     <main>
         <ul class="breadcrumb">
             <li><a href="index.html">Forside</a></li>
@@ -57,7 +65,7 @@
             <li>Salat</li>
         </ul>
         <h1>Vælg salat</h1><br>
-        <div class="knapperne"><a href="kartoffel.html"><button class="button tilbage">Tilbage</button></a> <a href="sauce.html"><button class="button frem">Frem</button></a></div>
+         <div class="knapperne"><button type="button" onclick="location.href = 'kartoffel.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'sauce.html';" class=" frem">Frem</button></div>
         <br>
         <div class="flex-container">
             <div class="menupunkt">

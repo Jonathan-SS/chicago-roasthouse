@@ -23,27 +23,35 @@
 
 
             </a> </div>
-        <!-- NAVIGATION -->
-        <nav> <a href="kurv.html" class="kurvlap"><img src="images/kurv.png" alt="din kurv">
-                <h1 class="mobil">Kurv</h1>
-            </a> <a href="menu.html"><img src="images/menu.png" alt="menukort" class="navb mobil">
-                <h1>Menu</h1>
-            </a> <a href=""><img src="images/selskab.png" alt="selskaber" class="navb mobil">
-                <h1>Selskab</h1>
+     <!-- NAVIGATION -->
+        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="">
+                Kurv
+            </a>
+			<a href="kurv.html" class="kurvlap laptop ">
+                Kurv
+            </a> 
+			<a href="menu.html"><img src="images/menu.png" alt="" class="navb mobil">
+                Menu
+            </a> <a href=""><img src="images/selskab.png" alt="" class="navb mobil">
+                Selskab
             </a>
             <div class="dropdown">
-                <button id="navknap" class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="flere oplysninger" class="mere mobil">
-                    <h1 class="merelap">Mere</h1>
+                <button  class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere mobil">
+                    
                 </button>
+				<button  class="dropbtn merelap" onClick="klikfunktion()"> 
+                    Mere
+                </button>
+				
                 <div id="mydropdown" class="dropcontent">
                     <a href="koedet.html">
-                        <h1>Kødet</h1>
+                        Kødet
                     </a>
                     <a href="om.html">
-                        <h1>Om os</h1>
+                        Om os
                     </a>
                     <a href="kontakt.html">
-                        <h1>Kontakt</h1>
+                        Kontakt
                     </a> </div>
             </div>
         </nav>
@@ -51,7 +59,7 @@
 
 
     </header>
-    <hr>
+    <hr class="mobil">
 
     <main class="forsideind">
         <h1>Velkommen <br> Chicago Roasthouse</h1>
@@ -64,7 +72,7 @@
             <button id="playknap" class="playknap"><img src="images/playknap.png" alt=""></button>
             <button id="pauseknap" class="pauseknap gem"><img src="images/pauseknap.png" alt="pauseknap"></button>
         </div>
-        <a href="menu.html"><button class="knap knap1 ">BESTIL</button></a>
+		<button type="button" onclick="location.href = 'menu.html';" class="knap knap1">Frem</button>
         <picture class="info">
             <source media="(max-width:700px)" srcset="images/info.png">
             <source media="(min-width:700px)" srcset="images/info_pc.png">
@@ -74,7 +82,7 @@
         <br>
         <br>
 
-        <section class="forsidepics">
+        <div class="forsidepics">
 
             <img src="images/ribs.jpg" alt="Spareribs">
 
@@ -82,34 +90,34 @@
 
             <img src="images/turkeyroast.jpg" alt="Turkey roast">
 
-        </section>
+        </div>
 
         <br>
         <br>
         <br>
 
-        <section class="laptopikoner">
+        <div class="laptopikoner">
             <div>
-                <a href="koedet.html"><img src="images/kod.png" alt="koed ikon" class="koedikonlaptop">
-                    <h1 class="ikontxtlaptop">Vores Kød</h1>
+                <a href="koedet.html"><img src="images/kod.png" alt="koed ikon" class="koedikonlaptop ikontxtlaptop">
+                    Vores Kød
                 </a>
             </div>
             <div>
-                <a href=""><img src="images/selskab.png" alt="" class="selskabikonlaptop">
-                    <h1 class="ikontxtlaptop">Selskab</h1>
+                <a href=""><img src="images/selskab.png" alt="" class="selskabikonlaptop ikontxtlaptop">
+                    Selskab
                 </a>
             </div>
             <div>
-                <a href="menu.html"><img src="images/menu.png" alt="menukort" class="menuikonlaptop">
-                    <h1 class="ikontxtlaptop">Menu</h1>
+                <a href="menu.html"><img src="images/menu.png" alt="menukort" class="menuikonlaptop ikontxtlaptop">
+                    Menu
                 </a>
             </div>
             <div>
-                <a href="om.html"><img src="images/jubileumikon.png" alt="femogtyve jubilaeum" class="jubileumikonlaptop">
-                    <h1 class="ikontxtlaptop">25 Års Jubilæum</h1>
+                <a href="om.html"><img src="images/jubileumikon.png" alt="femogtyve jubilaeum" class="jubileumikonlaptop ">
+                    25 Års Jubilæum
                 </a>
             </div>
-        </section>
+        </div>
 
 
 
