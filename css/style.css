@@ -401,43 +401,7 @@ h3 {
 
 /* plus og minus knapper */
 
-.myform {
-    position: absolute;
-    top: 40%;
-    right: 3%;
 
-}
-
-.qty {
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border: none;
-    color: #fff;
-    font-size: 100%;
-    background-color: transparent
-}
-
-
-input.qtyplus {
-    width: 25px;
-    color: #804844;
-    height: 25px;
-    border: 1px solid #aaa;
-    background: #fdf4e6;
-    border-radius: 50%;
-    font-size: 100%;
-}
-
-input.qtyminus {
-    color: #804844;
-    width: 25px;
-    height: 25px;
-    border: 1px solid #aaa;
-    font-size: 100%;
-    background: #fdf4e6;
-    border-radius: 50%;
-}
 
 /*header*/
 header {
