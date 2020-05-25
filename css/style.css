@@ -701,19 +701,22 @@ main {
 
     .forsidepics {
         margin: auto;
-        width: 80%;
+        width: 85%;
         display: flex;
         flex-direction: row;
-        align-content: space-between;
         justify-content: space-between;
+
     }
 
     .forsidepics img {
         width: 30%;
+        padding: 10px;
+        background-color: #804844;
     }
 
     .laptopikoner {
         background-color: #626f47;
+        height: 200px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -722,7 +725,7 @@ main {
 
     .laptopikoner a {
         margin: auto;
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -735,6 +738,14 @@ main {
         display: block;
         width: 40%;
     }
+
+
+
+    .ikontxtlaptop {
+        color: #faebd7;
+        font-size: 2vh;
+    }
+
 
     /* alle gule knapper */
 
