@@ -36,8 +36,10 @@ p {
     padding: 0px 20px;
 }
 
-h1 h2 h3 h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+	color: #804844;
 }
 
 h1 {
@@ -134,23 +136,27 @@ ul.breadcrumb {
     list-style: none;
     background-color: transparent;
     color: #804844;
+	opacity: 0.8;
 }
 
 ul.breadcrumb li {
     display: inline;
     font-size: 2vw;
+	opacity: 0.8;
 }
 
 ul.breadcrumb li + li:before {
     padding: 8px;
     color: #804844;
     content: "/\00a0";
+	opacity: 0.8;
 }
 
 ul.breadcrumb li a {
     color: #804844;
     text-decoration: none;
 	font-size: 2vw;
+	opacity: 0.8;
 }
 
 ul.breadcrumb li a:hover {
@@ -163,12 +169,15 @@ ul.breadcrumb li a:hover {
 
 /* Kontakt underside */
 
+.flexkasse{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
 .ugensdage {
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 65%;
-    left: 1, 5%;
     color: #804844;
     padding-bottom: 5%;
     z-index: -1;
@@ -179,14 +188,7 @@ ul.breadcrumb li a:hover {
     color: #6754f5;
 }
 
-h5 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 85%;
-    padding-left: 3%;
-    margin: 1%;
-    color: #804844;
-    padding-bottom: 1%
-}
+
 
 /*menukort*/
 
@@ -239,7 +241,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 4vw;
+    font-size: 3vw;
     margin: auto;
     cursor: pointer;
     border-radius: 50px;
@@ -251,6 +253,7 @@ h3 {
 
 .knap1{
 	min-width: 200px;
+	max-width: 300px;
 }
 
 
@@ -311,7 +314,8 @@ h3 {
     margin: auto;
     background-size: cover;
     display: flex;
-    background-image: url("images/tree.png");
+    background-image: url("tree.png");
+	
 }
 
 .kurven {
@@ -603,10 +607,7 @@ main {
 
 
 
-    .ugensdage {
-        margin-left: 3%;
-    }
-
+   
 }
 
 
@@ -868,13 +869,19 @@ main {
 
     /* kontakt */
 
-    .kort {
-width: 80%;
-        margin:auto
-    }
-
+	.flexkasse{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.kontaktsted{
+		width:50%;
+	}
+	
+	.ugensdage{
+		margin: 0 auto;
+	}
+   
  
-    .ugensdage {
-        margin-left: 3%;
-    }
+    
 }
