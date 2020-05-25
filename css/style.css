@@ -614,13 +614,26 @@ main {
         bottom: 80px;
 
     }
+
+    /* kontakt */
+
+    .maps {
+        width: 89%;
+        margin-left: 5%;
+
+
+    }
+
+    .ugensdage {
+        margin-left: 3%;
+    }
+
 }
 
 
 
 /*laptop version) */
 @media only screen and (min-width: 700px) {
-
 
     /*header*/
     header {
@@ -856,20 +869,37 @@ main {
         margin: 0.2% 30%;
     }
 
-}
 
-.fotdiv {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    margin: auto;
-    width: 7%;
 
-}
+    .fotdiv {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: auto;
+        width: 7%;
 
-.fotdiv h1 {
-    font-family: 'Vast Shadow', cursive;
-    color: #fdf4e6;
-    font-size: 1.5vw;
+    }
 
+    .fotdiv h1 {
+        font-family: 'Vast Shadow', cursive;
+        color: #fdf4e6;
+        font-size: 1.5vw;
+
+    }
+
+    /* kontakt */
+
+    .kort {
+
+        margin-left: 4%;
+    }
+
+    .maps {
+        width: 80%;
+        margin-left: auto;
+    }
+
+    .ugensdage {
+        margin-left: 3%;
+    }
 }
