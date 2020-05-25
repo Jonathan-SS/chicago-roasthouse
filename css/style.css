@@ -22,7 +22,7 @@ a {
     text-decoration: none;
 }
 
-.knap {
+.knap, .frem, .tilbage {
     font-family: 'Vast Shadow', cursive;
 }
 
@@ -114,30 +114,9 @@ h2 {
 }
 
 
-.knap2 {
-    border: none;
-    background-color: #fec312;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 4vw;
-    margin: auto;
-    cursor: pointer;
-    border-radius: 50px
-}
 
-.knap1 {
-    box-shadow: 3px 3px lightgrey;
 
-}
 
-.knap1:hover {
-    background-color: #fec312;
-    color: white;
-    opacity: 70%;
-}
 
 .forsideind {
     display: flex;
@@ -159,7 +138,7 @@ ul.breadcrumb {
 
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 ul.breadcrumb li + li:before {
@@ -171,6 +150,7 @@ ul.breadcrumb li + li:before {
 ul.breadcrumb li a {
     color: #804844;
     text-decoration: none;
+	font-size: 2vw;
 }
 
 ul.breadcrumb li a:hover {
@@ -219,7 +199,7 @@ h5 {
 
 .menupunkt {
     width: 100%;
-    height: 10%;
+    height: auto;
     margin-bottom: 20px;
     background-image: url("/images/tree.png");
     background-size: cover;
@@ -250,9 +230,9 @@ h3 {
 
 }
 
-.button {
+.frem, .tilbage, .knap1 {
     border: none;
-    width: 180px;
+    width: 30vw;
     background-color: #fec312;
     color: white;
     padding: 15px 32px;
@@ -262,16 +242,18 @@ h3 {
     font-size: 4vw;
     margin: auto;
     cursor: pointer;
-    border-radius: 50px
+    border-radius: 50px;
+	box-shadow: inset 0px 0px 10px -1px rgba(0,0,0,0.51);
+	box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.51);
+	
+	
 }
 
-.frem {
-    box-shadow: 3px 3px lightgrey;
+.knap1{
+	min-width: 200px;
 }
 
-.tilbage {
-    box-shadow: 3px 3px lightgrey;
-}
+
 
 .knap1:hover {
     background-color: #fec312;
@@ -283,8 +265,8 @@ h3 {
 
 .mad {
 
-    width: 50%;
-    padding-left: 3%
+    width: 40%;
+    padding: 3%
 }
 
 .afhent {
@@ -403,7 +385,7 @@ h3 {
 
    position: absolute;
     bottom: 30%;
-    right: -5%;
+    right: 0;
     width: 30%;
     z-index: 4;
 }
@@ -411,10 +393,9 @@ h3 {
 
 .minus,
 .plus {
-    width: 5vw;
-    height: 5vw;
-    min-width: 30px;
-    min-height: 30px;
+      width: 25%;
+    min-width: 20px;
+    /* min-height: 30px; */
     border-radius: 50%;
     border: none;
     display: inline-block;
@@ -450,11 +431,13 @@ input {
 
 .menupunkt {
     width: 100%;
+	min-height: 100px;
     height: 10%;
     margin-bottom: 20px;
     background-image: url("tree.png");
     background-size: cover;
     position: relative;
+	box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.51);
 
 }
 
@@ -618,12 +601,7 @@ main {
 
     /* kontakt */
 
-    .maps {
-        width: 89%;
-        margin-left: 5%;
 
-
-    }
 
     .ugensdage {
         margin-left: 3%;
@@ -891,15 +869,11 @@ main {
     /* kontakt */
 
     .kort {
-
-        margin-left: 4%;
+width: 80%;
+        margin:auto
     }
 
-    .maps {
-        width: 80%;
-        margin-left: auto;
-    }
-
+ 
     .ugensdage {
         margin-left: 3%;
     }
