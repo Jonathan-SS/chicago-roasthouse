@@ -361,7 +361,6 @@ h3 {
 .dropcontent {
     display: none;
     position: absolute;
-    bottom: 80px;
     right: 0px;
     background-color: #fdf4e6;
     min-width: 160px;
@@ -607,7 +606,13 @@ main {
     .pinlaptop {
         display: none;
     }
+	.dropcontent{
+		bottom: 80px;
+		
+	}
 }
+
+
 
 /*laptop version) */
 @media only screen and (min-width: 700px) {
@@ -711,6 +716,17 @@ main {
     .dropdown {
         text-align: center;
     }
+	
+	
+	.dropcontent{
+		width:200px;
+		
+	}
+	
+	.dropcontent a{
+		margin: 20px 0px;
+	}
+	
 
     /* Forside laptop syling */
     .video {
