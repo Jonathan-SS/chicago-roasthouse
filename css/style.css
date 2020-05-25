@@ -564,6 +564,8 @@ main {
     margin-bottom: 100px;
 }
 
+/* Til vores mobil version */
+
 @media only screen and (max-width: 700px) {
     .merelap {
         display: none;
@@ -583,7 +585,7 @@ main {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/*laptop version) */
 @media only screen and (min-width: 700px) {
 
 
@@ -598,7 +600,6 @@ main {
 
     }
 
-
     #tele {
         display: none;
     }
@@ -607,8 +608,6 @@ main {
         display: none;
 
     }
-
-
 
     /*nav*/
     nav {
@@ -737,7 +736,24 @@ main {
         width: 40%;
     }
 
+    /* alle gule knapper */
 
+    .knapperne {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: space-around;
+    }
+
+    .frem {
+
+        font-size: 150%;
+    }
+
+    .tilbage {
+
+        font-size: 150%;
+    }
 
     /*footer*/
 
@@ -779,8 +795,6 @@ main {
         margin: 0.2% 30%;
     }
 
-
-
 }
 
 .fotdiv {
@@ -790,8 +804,6 @@ main {
     margin: auto;
     width: 7%;
 
-
-
 }
 
 .fotdiv h1 {
@@ -799,6 +811,4 @@ main {
     color: #fdf4e6;
     font-size: 1.5vw;
 
-
-}
 }
