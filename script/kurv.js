@@ -106,6 +106,7 @@ salatpris.insertAdjacentHTML("beforeend",salapri.replace(/,/g, ''))
     }
 	
 	return sum1;
+
 }
 
 //der dannes et objekt til hver madkategori som skal indeholde summen af dens priser
@@ -119,9 +120,13 @@ let sumsau=0
 let sumsal=0
 
 
+
+
 //til sidst udskrives der til objektet samletpris 
 //For at der kan blive udskrevet noget til samletpris skal der være en værdi til hver 'str' og 'sum1'
 //Hvis vi havde mere tid, kunne vi have lavet en funktion, som kunne udskrive sumen ligemeget hvad
 
 samletpris.insertAdjacentHTML("beforeEnd", sumPris(menupri,sumM)+sumPris(kartofpri,sumK)+ sumPris(saupri,sumsau)+ sumPris(salapri,sumsal)+" kr.")
+
+
 
