@@ -336,10 +336,13 @@ h3 {
 	text-align:center;
 }
 
-.maengde, .produkt, .kurvpris{
+.maengde, .kurvpris{
 	width: 30%;
 }
 
+.produkt{
+	width: 40%;
+}
 
 
 .current {

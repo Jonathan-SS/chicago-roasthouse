@@ -18,6 +18,11 @@ const antalsal=document.getElementById("antalsa")
 
 const menupris=document.getElementById("menupris")
 
+const kartofpris=document.getElementById("kartoffelpris")
+
+const saucepris=document.getElementById("saucepris")
+
+const salatpris=document.getElementById("salatpris")
 
 
 
@@ -42,8 +47,11 @@ let antalsa=sessionStorage.getItem("antalsa")
 
 let menupri=sessionStorage.getItem("menupris")
 
+let kartofpri=sessionStorage.getItem("kartoffelpris")
 
+let saupri=sessionStorage.getItem("saucepris")
 
+let salapri=sessionStorage.getItem("salatpris");
 
 
 
@@ -64,6 +72,14 @@ salatt.insertAdjacentHTML("beforeend",salater+"<br> <br>");
 antalsal.insertAdjacentHTML("beforeend",antalsa+"<br> <br>")
 
 menupris.insertAdjacentHTML("beforeend",menupri+"<br> <br>")
+
+kartofpris.insertAdjacentHTML("beforeend",kartofpri+"<br> <br>")
+
+saucepris.insertAdjacentHTML("beforeend",saupri+"<br> <br>")
+
+salatpris.insertAdjacentHTML("beforeend",salapri+"<br> <br>")
+
+
 
 
 

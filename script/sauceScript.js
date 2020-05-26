@@ -25,20 +25,24 @@ let sauce=[]
 
 let antalsau=[]
 
+let saucepris=[]
+
 
 
 fremknap.addEventListener("click",function(){
  if(antalsau1.value>0){
 
-  sauce.push("Bearnaise Sauce");
+  sauce.push("Bearnaise Sauce<br>");
   antalsau.push(antalsau1.value);
+saucepris.push(antalsau1.value*15+"kr."+"<br>");
 
 
  
   }
 		if (antalsau2.value>0){
-			sauce.push("Kold Spareribs Sauce");
+			sauce.push("Kold Spareribs Sauce<br>");
 			antalsau.push(antalsau2.value);
+			saucepris.push(antalsau2.value*15+"kr."+"<br>");
 			
 		
 		
@@ -46,16 +50,18 @@ fremknap.addEventListener("click",function(){
 	}
 	
 		if (antalsau3.value>0){
-			sauce.push("Whiskey Sauce");
+			sauce.push("Whiskey Sauce<br>");
 			antalsau.push(antalsau3.value);
+			saucepris.push(antalsau3.value*15+"kr."+"<br>");
 			
 		
 		
 	
 	}
 		if (antalsau4.value>0){
-			sauce.push("Rødvins Sauce");
+			sauce.push("Rødvins Sauce<br>");
 			antalsau.push(antalsau4.value);
+			saucepris.push(antalsau4.value*15+"kr."+"<br>");
 			
 		
 		
@@ -65,6 +71,7 @@ fremknap.addEventListener("click",function(){
 	
 sessionStorage.setItem("sauce",sauce)
 sessionStorage.setItem("antalsau",antalsau)
+sessionStorage.setItem("saucepris",saucepris)
 });
 
 //////

@@ -38,6 +38,8 @@ let salat=[]
 
 let antalsa=[]
 
+let	salatpris=[]
+
 
 
 fremknap.addEventListener("click",function(){
@@ -45,6 +47,7 @@ fremknap.addEventListener("click",function(){
 
   salat.push("Hjemmelavet Coleslaw <br>");
   antalsa.push(antalsa1.value);
+	salatpris.push(antalsa1.value*20+"kr."+"<br>");
 
 
  
@@ -52,6 +55,7 @@ fremknap.addEventListener("click",function(){
 		if (antalsa2.value>0){
 			salat.push("Mixed salat <br>");
 			antalsa.push(antalsa2.value);
+			salatpris.push(antalsa2.value*22+"kr."+"<br>");
 		}
 			
 		
@@ -60,6 +64,7 @@ fremknap.addEventListener("click",function(){
 	
 	
 sessionStorage.setItem("salat",salat)
+sessionStorage.setItem("salatpris",salatpris)
 sessionStorage.setItem("antalsa",antalsa)
 });
 
