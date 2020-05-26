@@ -1,10 +1,28 @@
 "use strict"
 
 
-
+//først bindes der et objekt til frem knappen
 const fremknap=document.getElementById("frem")
 
-let antalm1=document.getElementById("antalm1")
+
+//Der bliver lavet en plus og minus funktion, som bliver bundet til en button hver vha. onClick
+//plus- og minusfunktionen er afhængig af a, a bliver bundet til et inputfelt i onClick
+//ved hjælp af funktionerne stepUp og stepDown, ændre input feltet med 1
+
+function plusfunktion(a) {
+	a.stepUp(1);
+}
+
+function minusfunktion(a){
+	a.stepDown(1);
+	
+}
+
+
+
+
+//der bliver bundet et object til hver af inputfelterne på menu siden
+const antalm1=document.getElementById("antalm1")
 
 
 const antalm2=document.getElementById("antalm2")
@@ -19,16 +37,8 @@ const antalm5=document.getElementById("antalm5")
 
 
 const antalm6=document.getElementById("antalm6")
-////
 
-function plusfunktion(a) {
-	a.stepUp(1);
-}
-
-function minusfunktion1(a){
-	a.stepDown(1);
-	
-}
+//Der laves en række tomme arrays
 
 let menuer=[]
 
@@ -39,12 +49,20 @@ let menupris=[]
 let prism=[]
 
 
+//hovedfunktion
 
+//når der bliver trykket på fremknap bliver følgende funktion aktiveret:
+//
 fremknap.addEventListener("click",function(){
+	
+//Hvert enkelt inputfelts værdi bliver tjekket
  if(antalm1.value>0){
-
+//hvis inputfeltets værdi er over 0, sker følgende 
+//Der bliver tilføjet et tekst item til arrayet menuer
   menuer.push("Chicago Roast<br> <br>");
+//værdien af inputfeltet tilføjes til arrayet 
   antalm.push(antalm1.value+"<br> <br>");
+//værdien af inputfeltet, ganget med 
  menupris.push(antalm1.value*75+"kr."+"<br> <br>");
 
 
