@@ -232,7 +232,7 @@ h3 {
 
 .frem, .tilbage, .knap1 {
     border: none;
-    width: 30vw;
+    width: 40%;
     background-color: #fec312;
     color: white;
     padding: 15px 32px;
@@ -847,6 +847,7 @@ main {
 
     .knapperne {
         display: flex;
+		width: 55%;
         flex-direction: row;
         margin-left: auto;
         justify-content: space-around;
