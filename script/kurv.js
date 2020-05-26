@@ -100,12 +100,39 @@ salatpris.insertAdjacentHTML("beforeend",salapri.replace(/,/g, ''))
 
 let sumM=0
 
-let sumk=0
+let sumK=0
 
 let sumsau=0
 
 let sumsal=0
 
+/*
 
-samletpris.insertAdjacentHTML("beforeEnd",sumPris(menupri,sumM)+sumPris(kartofpri,sumk)+sumPris(saupri,sumsau)+sumPris(salapri,sumsal)+" kr.")
+function sum(){
+	
+	if(sumPris(menupri,sumM)>0){
+		return sumM;
+	}
+	if(sumPris(menupri,sumM)>0&&sumPris(kartofpri,sumK)>0){
+		return sumM+=sumK;
+	}
+	
+	if(sumPris(menupri,sumM)>0&&sumPris(kartofpri,sumK)>0&&sumPris(salapri,sumsal)>0){
+		return sumM+=sumK+=sumsal;
+	}
+	
+	if(sumPris(menupri,sumM)>0&&sumPris(kartofpri,sumK)>0&&sumPris(saupri,sumsau)>0&&sumPris(salapri,sumsal)>0){
+		return sumM+=sumK+=sumsau+=sumsal;
+	}
+	
+	
+	
+	
+}
+*/
+
+
+
+
+samletpris.insertAdjacentHTML("beforeEnd", sumPris(menupri,sumM)+sumPris(kartofpri,sumK)+ sumPris(saupri,sumsau)+ sumPris(salapri,sumsal)+" kr.")
 

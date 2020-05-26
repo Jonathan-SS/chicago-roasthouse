@@ -350,11 +350,11 @@ h3 {
 }
 
 .maengde, .kurvpris{
-	width: 30%;
+	width: 20%;
 }
 
 .produkt{
-	width: 40%
+	width: 60%
 }
 
 .kurvpris div,.maengde div, .produkt div{
@@ -624,6 +624,10 @@ main {
     margin-bottom: 100px;
 }
 
+::placeholder{
+	color: #fdf4e6
+}
+
 /* Til vores mobil version */
 
 @media only screen and (max-width: 700px) {
@@ -661,7 +665,9 @@ main {
 		display: none;
 	}
 
-
+	.kurven h1{
+		font-size: 4vw;
+	}
    
 }
 
@@ -991,8 +997,10 @@ main {
 	
 	/*kurv*/
 	.flex-container2{
-		width: 50% ;
+		width: 60% ;
 	}
 	
-	
+	.kurven h1{
+		font-size: 2.5vw;
+	}
 }
