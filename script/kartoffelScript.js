@@ -32,7 +32,7 @@ fremknap.addEventListener("click",function(){
  if(antalk1.value>0){
 
   kartoffler.push("Pommes Frites<br>");
-  antalk.push(antalk1.value);
+  antalk.push(antalk1.value+"<br>");
  kartoffelpris.push(antalk1.value*25+"kr."+"<br>");
 
 
@@ -40,7 +40,7 @@ fremknap.addEventListener("click",function(){
   }
 		if (antalk2.value>0){
 			kartoffler.push("Bagt Kartoffel <br>m. Hvidløgssmør<br>");
-			antalk.push(antalk2.value);
+			antalk.push(antalk2.value+"<br>");
 			kartoffelpris.push(antalk2.value*20+"kr."+"<br>");
 			
 		
@@ -50,7 +50,7 @@ fremknap.addEventListener("click",function(){
 	
 		if (antalk3.value>0){
 			kartoffler.push("Bagt Kartoffel <br>m. Baconsmør<br>");
-			antalk.push(antalk3.value);
+			antalk.push(antalk3.value+"<br>");
 			kartoffelpris.push(antalk3.value*20+"kr."+"<br>");
 			
 		
@@ -59,7 +59,7 @@ fremknap.addEventListener("click",function(){
 	}
 		if (antalk4.value>0){
 			kartoffler.push("Håndskårne Kartoffelbåde<br>");
-			antalk.push(antalk4.value);
+			antalk.push(antalk4.value+"<br>");
 			kartoffelpris.push(antalk4.value*25+"kr."+"<br>");
 			
 		

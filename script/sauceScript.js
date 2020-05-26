@@ -33,7 +33,7 @@ fremknap.addEventListener("click",function(){
  if(antalsau1.value>0){
 
   sauce.push("Bearnaise Sauce<br>");
-  antalsau.push(antalsau1.value);
+  antalsau.push(antalsau1.value+"<br>");
 saucepris.push(antalsau1.value*15+"kr."+"<br>");
 
 
@@ -41,7 +41,7 @@ saucepris.push(antalsau1.value*15+"kr."+"<br>");
   }
 		if (antalsau2.value>0){
 			sauce.push("Kold Spareribs Sauce<br>");
-			antalsau.push(antalsau2.value);
+			antalsau.push(antalsau2.value+"<br>");
 			saucepris.push(antalsau2.value*15+"kr."+"<br>");
 			
 		
@@ -51,7 +51,7 @@ saucepris.push(antalsau1.value*15+"kr."+"<br>");
 	
 		if (antalsau3.value>0){
 			sauce.push("Whiskey Sauce<br>");
-			antalsau.push(antalsau3.value);
+			antalsau.push(antalsau3.value+"<br>");
 			saucepris.push(antalsau3.value*15+"kr."+"<br>");
 			
 		
@@ -60,7 +60,7 @@ saucepris.push(antalsau1.value*15+"kr."+"<br>");
 	}
 		if (antalsau4.value>0){
 			sauce.push("Rødvins Sauce<br>");
-			antalsau.push(antalsau4.value);
+			antalsau.push(antalsau4.value+"<br>");
 			saucepris.push(antalsau4.value*15+"kr."+"<br>");
 			
 		

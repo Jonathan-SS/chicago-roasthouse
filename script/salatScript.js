@@ -46,7 +46,7 @@ fremknap.addEventListener("click",function(){
  if(antalsa1.value>0){
 
   salat.push("Hjemmelavet Coleslaw <br>");
-  antalsa.push(antalsa1.value);
+  antalsa.push(antalsa1.value+"<br>");
 	salatpris.push(antalsa1.value*20+"kr."+"<br>");
 
 
@@ -54,7 +54,7 @@ fremknap.addEventListener("click",function(){
   }
 		if (antalsa2.value>0){
 			salat.push("Mixed salat <br>");
-			antalsa.push(antalsa2.value);
+			antalsa.push(antalsa2.value+"<br>");
 			salatpris.push(antalsa2.value*22+"kr."+"<br>");
 		}
 			

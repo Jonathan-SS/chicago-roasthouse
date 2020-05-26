@@ -42,15 +42,15 @@ fremknap.addEventListener("click",function(){
  if(antalm1.value>0){
 
   menuer.push("Chicago Roast<br>");
-  antalm.push(antalm1.value);
- menupris.push(antalm1.value*75+"kr.");
+  antalm.push(antalm1.value+"<br>");
+ menupris.push(antalm1.value*75+"kr."+"<br>");
 
 
  
   }
 		if (antalm2.value>0){
 			menuer.push("Chicago Roast Menu<br>");
-			antalm.push(antalm2.value);
+			antalm.push(antalm2.value+"<br>");
 			menupris.push(antalm2.value*125+"kr."+"<br>");
 			
 		
@@ -60,7 +60,7 @@ fremknap.addEventListener("click",function(){
 	
 		if (antalm3.value>0){
 			menuer.push("Spareribs<br>");
-			antalm.push(antalm3.value);
+			antalm.push(antalm3.value+"<br>");
 			menupris.push(antalm3.value*75+"kr."+"<br>");
 			
 		
@@ -69,7 +69,7 @@ fremknap.addEventListener("click",function(){
 	}
 		if (antalm4.value>0){
 			menuer.push("Spareribs Menu<br>");
-			antalm.push(antalm4.value);
+			antalm.push(antalm4.value+"<br>");
 			menupris.push(antalm4.value*125+"kr."+"<br>");
 			
 		
@@ -79,7 +79,7 @@ fremknap.addEventListener("click",function(){
 	
 	if (antalm5.value>0){
 			menuer.push("Turkey Roast<br>");
-			antalm.push(antalm5.value);
+			antalm.push(antalm5.value+"<br>");
 		menupris.push(antalm5.value*75+"kr."+"<br>");
 			
 		
@@ -89,7 +89,7 @@ fremknap.addEventListener("click",function(){
 	
 	if (antalm6.value>0){
 			menuer.push("Turkey Roast Menu<br>");
-			antalm.push(antalm6.value);
+			antalm.push(antalm6.value+"<br>");
 		menupris.push(antalm6.value*125+"kr."+"<br>");
 			
 		

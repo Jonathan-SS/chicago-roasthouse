@@ -24,6 +24,8 @@ const saucepris=document.getElementById("saucepris")
 
 const salatpris=document.getElementById("salatpris")
 
+const samletpris=document.getElementById("samletpris")
+
 
 
 

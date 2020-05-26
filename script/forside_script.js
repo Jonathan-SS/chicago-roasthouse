@@ -3,24 +3,22 @@
 
 
 //forside video knap
-const vid = document.getElementById("video")
-const knap = document.getElementById("playknap")
-const pause = document.getElementById("pauseknap")
 
 
 
-knap.addEventListener("click", function () {
-    vid.play();
-    knap.classList.toggle("gem");
-    pause.classList.toggle("vis");
+ function afspil(a,b,c) {
+    a.play();
+    b.classList.toggle("gem");
+    c.classList.toggle("gem");
 
-});
-
-pause.addEventListener("click", function () {
-    vid.pause();
-    knap.classList.toggle("gem");
-    pause.classList.toggle("vis");
+}
 
 
-});
+function pause(a,b,c) {
+    a.pause();
+    b.classList.toggle("gem");
+    c.classList.toggle("gem");
+
+
+}
 

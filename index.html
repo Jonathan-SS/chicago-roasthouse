@@ -65,12 +65,32 @@
         <h1>Velkommen <br> Chicago Roasthouse</h1>
 
         <div class="vidcontain">
-
-            <video loop src="video/crvidmobilos.mp4" poster="images/vidposter.jpg" id="video" class="video"></video>
-            <video loop src="video/cr_promo_vidlaptop.mp4" poster="images/laptopvidposter.jpg" class="videolap"></video>
-
-            <button id="playknap" class="playknap"><img src="images/playknap.png" alt=""></button>
-            <button id="pauseknap" class="pauseknap gem"><img src="images/pauseknap.png" alt="pauseknap"></button>
+		
+            <video loop src="video/crvidmobilos.mp4" poster="images/vidposter.jpg" id="video1" class="video mobil"></video>
+			
+            <video loop src="video/cr_promo_vidlaptop.mp4" poster="images/laptopvidposter.jpg" id="video2" class="video laptop">
+			
+			</video>
+			
+			
+            <button onClick="afspil(video1,afspilknap1,pauseknap1)" id="afspilknap1" class="playknap mobil "><img src="images/playknap.png" alt=""></button>
+			
+			
+			
+			
+			
+			 <button onClick="afspil(video2,afspilknap2,pauseknap2)" id="afspilknap2" class="playknap laptop "><img src="images/playknap.png" alt=""></button>
+			
+			
+			
+            <button  onClick="pause(video1,afspilknap1,pauseknap1)" id="pauseknap1" class="pauseknap mobil gem"><img src="images/pauseknap.png" alt="pauseknap"></button>
+			
+			
+			
+			 <button  onClick="pause(video2,afspilknap2,pauseknap2)" id="pauseknap2" class="pauseknap laptop gem"><img src="images/pauseknap.png" alt="pauseknap"></button>
+			
+			
+			
         </div>
 		<button type="button" onclick="location.href = 'menu.html';" class="knap knap1">Frem</button>
         <picture class="info">
