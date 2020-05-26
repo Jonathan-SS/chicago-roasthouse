@@ -22,6 +22,8 @@ let menuer=[]
 
 let antalm=[]
 
+let menupris=[]
+
 
 
 fremknap.addEventListener("click",function(){
@@ -29,13 +31,15 @@ fremknap.addEventListener("click",function(){
 
   menuer.push("Chicago Roast");
   antalm.push(antalm1.value);
+ menupris.push(antalm1.value*75);
 
 
  
   }
 		if (antalm2.value>0){
-			menuer.push("Chicago Roast Menu");
+			menuer.push("Chicago Roast Menu<br>");
 			antalm.push(antalm2.value);
+			menupris.push(antalm2.value*125);
 			
 		
 		
@@ -43,7 +47,7 @@ fremknap.addEventListener("click",function(){
 	}
 	
 		if (antalm3.value>0){
-			menuer.push("Spareribs");
+			menuer.push("Spareribs<br>");
 			antalm.push(antalm3.value);
 			
 		
@@ -51,7 +55,7 @@ fremknap.addEventListener("click",function(){
 	
 	}
 		if (antalm4.value>0){
-			menuer.push("Spareribs Menu");
+			menuer.push("Spareribs Menu<br>");
 			antalm.push(antalm4.value);
 			
 		
@@ -60,7 +64,7 @@ fremknap.addEventListener("click",function(){
 	}
 	
 	if (antalm5.value>0){
-			menuer.push("Turkey Roast");
+			menuer.push("Turkey Roast<br>");
 			antalm.push(antalm5.value);
 			
 		
@@ -69,7 +73,7 @@ fremknap.addEventListener("click",function(){
 	}
 	
 	if (antalm6.value>0){
-			menuer.push("Turkey Roast Menu");
+			menuer.push("Turkey Roast Menu<br>");
 			antalm.push(antalm6.value);
 			
 		
@@ -81,6 +85,7 @@ fremknap.addEventListener("click",function(){
 	
 sessionStorage.setItem("menuer",menuer)
 sessionStorage.setItem("antalm",antalm)
+sessionStorage.setItem("menupris",menupris)
 });
 
 //////

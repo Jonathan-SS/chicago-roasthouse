@@ -16,6 +16,8 @@ const salatt=document.getElementById("salat")
 
 const antalsal=document.getElementById("antalsa")
 
+const menupris=document.getElementById("menupris")
+
 
 
 
@@ -38,6 +40,8 @@ let salater=sessionStorage.getItem("salat")
 
 let antalsa=sessionStorage.getItem("antalsa")
 
+let menupri=sessionStorage.getItem("menupris")
+
 
 
 
@@ -58,6 +62,8 @@ antalsauc.insertAdjacentHTML("beforeend",antalsau+"<br> <br>")
 salatt.insertAdjacentHTML("beforeend",salater+"<br> <br>");
 
 antalsal.insertAdjacentHTML("beforeend",antalsa+"<br> <br>")
+
+menupris.insertAdjacentHTML("beforeend",menupri+"<br> <br>")
 
 
 

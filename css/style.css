@@ -320,13 +320,34 @@ h3 {
 
 .kurven {
     margin-bottom: 10px;
-    padding: 10%;
+	width: 100%;
+    padding: 5%;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	color: #fff;
 }
+.kurven h1{
+	text-align: left;
+	color: #fff;
+}
+
+.kurvpris h1{
+	text-align:center;
+}
+
+.maengde, .produkt, .kurvpris{
+	width: 30%;
+}
+
+
 
 .current {
     background-color: #fdf4e6;
 
 }
+
+
 
 /*dopup lavet med inspiration fra:https://www.w3schools.com/howto/howto_js_dropdown.asp*/
 /* drop up knap */
