@@ -33,7 +33,7 @@ a {
 p {
 
     font-family: 'Libre Franklin', sans-serif;
-    padding: 0px 20px;
+    padding: 0% 10%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -295,16 +295,30 @@ h3 {
     flex-direction: row;
 }
 
+.flex p{
+        margin: auto;
+        align-items: center;
+    }
+
 .flexbox-parent {
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
+
+.kobillede {
+        width: 50%;
+    padding: 10% 0% 10% 5%;
+    }
+
+.udskaering {
+        width: 40%;
+    padding: 10% 5% 10% 0%;
+    }
 
 .garanti {
-    width: 45%;
+    width: 40%;
 }
-
-
 /* Kurv */
 
 .flex-container2 {
@@ -398,6 +412,14 @@ h3 {
 
 /* Change color of dropdown links on hover */
 .dropcontent a:hover {
+    color: #fdf4e6;
+}
+
+.current {
+    background-color: #804844;
+}
+
+.current h1 {
     color: #fdf4e6;
 }
 
@@ -825,6 +847,36 @@ main {
     .tilbage {
 
         font-size: 150%;
+    }
+
+
+    /* Underside - om kødet */
+
+    .flex {
+        align-content: space-around;
+    }
+
+    .flex p{
+        margin: auto;
+        align-items: center;
+    }
+
+    .flexbox-parent {
+        justify-content: center;
+    }
+    .kobillede {
+        width: 40%;
+        padding: 0% 0% 0% 10%;
+    }
+
+    .udskaering {
+        width: 40%;
+        padding: 0% 10% 0% 0%;
+    }
+
+    .garanti {
+        width: 20%;
+        padding: 0% 0% 0% 10%;
     }
 
     /*footer*/
