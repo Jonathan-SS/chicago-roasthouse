@@ -65,18 +65,31 @@
             <li>Salat</li>
         </ul>
         <h1>Vælg salat</h1><br>
-         <div class="knapperne"><button type="button" onclick="location.href = 'kartoffel.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'sauce.html';" class=" frem">Frem</button></div>
+         <div class="knapperne"><button type="button" onclick="location.href = 'kartoffel.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'sauce.html';" id="frem" class=" frem">Frem</button></div>
         <br>
         <div class="flex-container">
             <div class="menupunkt">
                 <h3>Hjemmelavet coleslaw</h3>
                 <img src="images/coleslaw.png" alt="coleslaw" class="mad">
                 <p class="pris"> 20,- </p>
+				<div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm6" id="antalsa1" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
 
             </div>
             <div class="menupunkt">
                 <h3>Mixed salat</h3>
                 <img src="images/mixedsalat.png" alt="mixedsalat" class="mad">
+				<p class="pris"> 20,- </p>
+				<div class="number">
+                    <button onClick="minusfunktion2()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm6" id="antalsa2" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion2()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
 
             </div>
 
@@ -99,6 +112,6 @@
 
 
     </footer>
-
+	<script src="script/salatScript.js"></script>
     <script src="script/nav_script.js"></script>
 </body></html>

@@ -66,33 +66,60 @@
             <li>Sauce</li>
         </ul>
         <h1>Vælg sauce</h1><br>
-       <div class="knapperne"><button type="button" onclick="location.href = 'salat.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'kurv.html';" class=" frem">Frem</button></div>
+       <div class="knapperne"><button type="button" onclick="location.href = 'salat.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'kurv.html';" class=" frem" id="frem">Frem</button></div>
         <br>
         <div class="flex-container">
             <div class="menupunkt">
-                <h3>Bearnaisesauce</h3>
+                <h3>Bearnaise sauce</h3>
                 <img src="images/bearnaisesauce.png" alt="barnaisesauce" class="mad">
                 <p class="pris"> 15,- </p>
+			  <div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm6" id="antalsau1" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
               
 
             </div>
             <div class="menupunkt">
-                <h3>Kold spareribssauce</h3>
+                <h3>Kold spareribs sauce</h3>
                 <img src="images/redwine.png" alt="ribssauce" class="mad">
                 <p class="pris"> 15,- </p>
+				  <div class="number">
+                    <button onClick="minusfunktion2()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm6" id="antalsau2" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion2()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
              
             </div>
             <div class="menupunkt">
-                <h3>Whiskeysauce</h3>
+                <h3>Whiskey sauce</h3>
                 <img src="images/whiskey.png" alt="Whiskeysauce" class="mad">
                 <p class="pris"> 15,- </p>
-               
+                 <div class="number">
+                    <button onClick="minusfunktion3()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm6" id="antalsau3" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion3()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
 
             </div>
             <div class="menupunkt">
                 <h3>Rødvinssauce</h3>
                 <img src="images/redwine.png" alt="roedvinssauce" class="mad">
                 <p class="pris"> 15,- </p>
+				  <div class="number">
+                    <button onClick="minusfunktion4()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm4" id="antalsau4" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion4()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
                 
 
             </div>
@@ -118,6 +145,6 @@
 
 
 
-    <script src="mdu.js"></script>
+    <script src="script/sauceScript.js"></script>
     <script src=" script/nav_script.js"></script>
 </body></html>

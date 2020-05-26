@@ -65,33 +65,61 @@
             <li>Karofler</li>
         </ul>
         <h1>Vælg kartofler</h1><br>
-         <div class="knapperne"><button type="button" onclick="location.href = 'menu.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'salat.html';" class=" frem">Frem</button></div>
+         <div class="knapperne"><button type="button" onclick="location.href = 'menu.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'salat.html';" id="frem" class=" frem">Frem</button></div>
 		<br>
         <div class="flex-container">
             <div class="menupunkt">
-                <h3>Pomfritter</h3>
+                <h3>Pommes Frites</h3>
                 <img src="images/pommes.png" alt="pomfritter" class="mad">
                 <img class="afhent" src="images/afhent.png" alt="kun til afhentning">
                 <p class="pris"> 25,- </p>
+				  <div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm1" id="antalk1" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
 
             </div>
             <div class="menupunkt">
                 <h3>Bagt kartoffel m. hvidløgssmør</h3>
                 <img src="images/bagtkartoffel.png" alt="bagtkartoffelhvidløg" class="mad">
                 <p class="pris"> 20,- </p>
+				  <div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm1" id="antalk2" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
 
             </div>
             <div class="menupunkt">
                 <h3>Bagt kartoffel m. baconsmør</h3>
                 <img src="images/potatobacon.png" alt="bagkartoffelbacon" class="mad">
                 <p class="pris"> 20,- </p>
+				  <div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm1" id="antalk3" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
 
             </div>
             <div class="menupunkt">
                 <h3>Håndskårne kartoffelbåde</h3>
                 <img src="images/kartoffelbod.png" alt="kartoffelbåde" class="mad">
                 <img class="afhent" src="images/afhent.png" alt="kun til afhentning">
-                <p class="pris"> 25,- </p> d
+                <p class="pris"> 25,- </p> 
+				  <div class="number">
+                    <button onClick="minusfunktion1()" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+
+                    <input type="number" name="antalm1" id="antalk4" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion1()" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                </div>
+
 
             </div>
 
@@ -117,4 +145,5 @@
 
 
     <script src="script/nav_script.js"></script>
+	<script src="script/kartoffelScript.js"></script>
 </body></html>
