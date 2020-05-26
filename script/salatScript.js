@@ -11,27 +11,16 @@ let antalsa2=document.getElementById("antalsa2")
 
 
 
-function plusfunktion1() {
-	antalsa1.stepUp(1);
+function plusfunktion(a) {
+	a.stepUp(1);
 }
 
-function minusfunktion1(){
-	antalsa1.stepDown(1);
+function minusfunktion(a){
+	a.stepDown(1);
 	
 }
 
 
-
-
-
-function plusfunktion2() {
-	antalsa2.stepUp(1);
-}
-
-function minusfunktion2(){
-	antalsa2.stepDown(1);
-	
-}
 
 
 let salat=[]
@@ -45,17 +34,17 @@ let	salatpris=[]
 fremknap.addEventListener("click",function(){
  if(antalsa1.value>0){
 
-  salat.push("Hjemmelavet Coleslaw <br>");
-  antalsa.push(antalsa1.value+"<br>");
-	salatpris.push(antalsa1.value*20+"kr."+"<br>");
+  salat.push("Hjemmelavet Coleslaw <br> <br>");
+  antalsa.push(antalsa1.value+"<br> <br>");
+	salatpris.push(antalsa1.value*20+"kr."+"<br> <br>");
 
 
  
   }
 		if (antalsa2.value>0){
-			salat.push("Mixed salat <br>");
-			antalsa.push(antalsa2.value+"<br>");
-			salatpris.push(antalsa2.value*22+"kr."+"<br>");
+			salat.push("Mixed salat <br> <br>");
+			antalsa.push(antalsa2.value+"<br> <br>");
+			salatpris.push(antalsa2.value*22+"kr."+"<br> <br>");
 		}
 			
 		

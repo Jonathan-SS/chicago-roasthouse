@@ -344,8 +344,9 @@ h3 {
 	color: #fff;
 }
 
-.kurvpris h1{
+.kurvpris h1, .kurvpris div{
 	text-align:center;
+
 }
 
 .maengde, .kurvpris{
@@ -356,12 +357,18 @@ h3 {
 	width: 40%
 }
 
+.kurvpris div,.maengde div, .produkt div{
+	font-size: 2vw
+}
+
 
 .current {
     background-color: #fdf4e6;
 
 }
-
+.dropcontent  .current {
+	color: #fdf4e6;
+}
 
 
 /*dopup lavet med inspiration fra:https://www.w3schools.com/howto/howto_js_dropdown.asp*/
@@ -956,8 +963,36 @@ main {
 	
 	.ugensdage{
 		margin: 0 auto;
+		width: 40%;
 	}
    
  
-    
+    /*menu*/
+	
+	.flex-container{
+		width:50%;
+	}
+	
+	.pris{
+		top:20%;
+		right: 12%;
+		padding: 0;
+		font-size: 2vw
+	}
+	
+	
+	
+.menupunkt h3 {
+
+    font-size: 2vw;
+
+
+}
+	
+	/*kurv*/
+	.flex-container2{
+		width: 50% ;
+	}
+	
+	
 }

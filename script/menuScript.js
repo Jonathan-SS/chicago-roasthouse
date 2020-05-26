@@ -36,22 +36,27 @@ let antalm=[]
 
 let menupris=[]
 
+let prism=[]
+
 
 
 fremknap.addEventListener("click",function(){
  if(antalm1.value>0){
 
-  menuer.push("Chicago Roast<br>");
-  antalm.push(antalm1.value+"<br>");
- menupris.push(antalm1.value*75+"kr."+"<br>");
+  menuer.push("Chicago Roast<br> <br>");
+  antalm.push(antalm1.value+"<br> <br>");
+ menupris.push(antalm1.value*75+"kr."+"<br> <br>");
+
 
 
  
   }
 		if (antalm2.value>0){
-			menuer.push("Chicago Roast Menu<br>");
-			antalm.push(antalm2.value+"<br>");
-			menupris.push(antalm2.value*125+"kr."+"<br>");
+			menuer.push("Chicago Roast Menu<br> <br>");
+			antalm.push(antalm2.value+"<br> <br>");
+			menupris.push(antalm2.value*125+"kr."+"<br> <br>");
+		
+			
 			
 		
 		
@@ -59,18 +64,20 @@ fremknap.addEventListener("click",function(){
 	}
 	
 		if (antalm3.value>0){
-			menuer.push("Spareribs<br>");
-			antalm.push(antalm3.value+"<br>");
-			menupris.push(antalm3.value*75+"kr."+"<br>");
+			menuer.push("Spareribs<br> <br>");
+			antalm.push(antalm3.value+"<br> <br>");
+			menupris.push(antalm3.value*75+"kr."+"<br> <br>");
+			prism.push(antalm3.value*75);
 			
 		
 		
 	
 	}
 		if (antalm4.value>0){
-			menuer.push("Spareribs Menu<br>");
-			antalm.push(antalm4.value+"<br>");
-			menupris.push(antalm4.value*125+"kr."+"<br>");
+			menuer.push("Spareribs Menu<br> <br>");
+			antalm.push(antalm4.value+"<br> <br>");
+			menupris.push(antalm4.value*125+"kr."+"<br> <br>");
+	
 			
 		
 		
@@ -78,9 +85,10 @@ fremknap.addEventListener("click",function(){
 	}
 	
 	if (antalm5.value>0){
-			menuer.push("Turkey Roast<br>");
-			antalm.push(antalm5.value+"<br>");
-		menupris.push(antalm5.value*75+"kr."+"<br>");
+			menuer.push("Turkey Roast<br> <br>");
+			antalm.push(antalm5.value+"<br> <br>");
+		menupris.push(antalm5.value*75+"kr."+"<br> <br>");
+
 			
 		
 		
@@ -91,6 +99,7 @@ fremknap.addEventListener("click",function(){
 			menuer.push("Turkey Roast Menu<br>");
 			antalm.push(antalm6.value+"<br>");
 		menupris.push(antalm6.value*125+"kr."+"<br>");
+	
 			
 		
 		
@@ -99,9 +108,11 @@ fremknap.addEventListener("click",function(){
 	
 	
 	
+	
 sessionStorage.setItem("menuer",menuer)
 sessionStorage.setItem("antalm",antalm)
 sessionStorage.setItem("menupris",menupris)
+sessionStorage.setItem("prism",prism)
 });
 
 //////

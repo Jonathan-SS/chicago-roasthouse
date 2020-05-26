@@ -57,32 +57,55 @@ let salapri=sessionStorage.getItem("salatpris");
 
 
 
-ret.insertAdjacentHTML("beforeend",menuer+"<br> <br>");
+ret.insertAdjacentHTML("beforeend",menuer.replace(/,/g, ''));
 
-antal.insertAdjacentHTML("beforeend",antalm+"<br> <br>")
+antal.insertAdjacentHTML("beforeend",antalm.replace(/,/g, ''))
 
-kartoffel.insertAdjacentHTML("beforeend",kartoffler+"<br> <br>");
+kartoffel.insertAdjacentHTML("beforeend",kartoffler.replace(/,/g, ''));
 
-antalka.insertAdjacentHTML("beforeend",antalk+"<br> <br>")
+antalka.insertAdjacentHTML("beforeend",antalk.replace(/,/g, ''))
 
-sauce.insertAdjacentHTML("beforeend",saucer+"<br> <br>");
+sauce.insertAdjacentHTML("beforeend",saucer.replace(/,/g, ''));
 
-antalsauc.insertAdjacentHTML("beforeend",antalsau+"<br> <br>")
+antalsauc.insertAdjacentHTML("beforeend",antalsau.replace(/,/g, ''))
 
-salatt.insertAdjacentHTML("beforeend",salater+"<br> <br>");
+salatt.insertAdjacentHTML("beforeend",salater.replace(/,/g, ''));
 
-antalsal.insertAdjacentHTML("beforeend",antalsa+"<br> <br>")
+antalsal.insertAdjacentHTML("beforeend",antalsa.replace(/,/g, ''))
 
-menupris.insertAdjacentHTML("beforeend",menupri+"<br> <br>")
+menupris.insertAdjacentHTML("beforeend",menupri.replace(/,/g, ''))
 
-kartofpris.insertAdjacentHTML("beforeend",kartofpri+"<br> <br>")
+kartofpris.insertAdjacentHTML("beforeend",kartofpri.replace(/,/g, ''))
 
-saucepris.insertAdjacentHTML("beforeend",saupri+"<br> <br>")
+saucepris.insertAdjacentHTML("beforeend",saupri.replace(/,/g, ''))
 
-salatpris.insertAdjacentHTML("beforeend",salapri+"<br> <br>")
-
-
+salatpris.insertAdjacentHTML("beforeend",salapri.replace(/,/g, ''))
 
 
 
+
+
+
+
+
+    
+ function sumPris(str,sum1) {
+    var numbers = str.match(/\d+/g).map(Number);
+    for (var i = 0; i < numbers.length; i++) {
+        sum1 += numbers[i]
+    }
+	
+	return sum1;
+}
+
+let sumM=0
+
+let sumk=0
+
+let sumsau=0
+
+let sumsal=0
+
+
+samletpris.insertAdjacentHTML("beforeEnd",sumPris(menupri,sumM)+sumPris(kartofpri,sumk)+sumPris(saupri,sumsau)+sumPris(salapri,sumsal)+" kr.")
 
