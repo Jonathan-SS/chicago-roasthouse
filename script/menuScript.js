@@ -59,10 +59,11 @@ fremknap.addEventListener("click",function(){
  if(antalm1.value>0){
 //hvis inputfeltets værdi er over 0, sker følgende 
 //Der bliver tilføjet et tekst item til arrayet menuer
+//dette bliver gjort ved at bruge .push
   menuer.push("Chicago Roast<br> <br>");
 //værdien af inputfeltet tilføjes til arrayet 
   antalm.push(antalm1.value+"<br> <br>");
-//værdien af inputfeltet, ganget med 
+//værdien af inputfeltet, ganget med prisen på itemet samt kr., tilføjes til arrayet menupris
  menupris.push(antalm1.value*75+"kr."+"<br> <br>");
 
 
@@ -124,7 +125,8 @@ fremknap.addEventListener("click",function(){
 	
 	}
 	
-	
+//til sidst bliver de fire lister tilføjet til session storage ved hjælp af setItem og hver sin key
+//
 	
 	
 sessionStorage.setItem("menuer",menuer)
