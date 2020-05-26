@@ -1,5 +1,6 @@
 // JavaScript Document
 "use strict"
+//se kommentarer i menuScript.js
 
 
 const fremknap=document.getElementById("frem")
