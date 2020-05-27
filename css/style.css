@@ -339,12 +339,12 @@ h3 {
 	text-align: left;
 	color: #fff;
 }
-.kurven h1{
+.kurven h2{
 	text-align: left;
 	color: #fff;
 }
 
-.kurvpris h1, .kurvpris div{
+.kurvpris h2, .kurvpris div{
 	text-align:center;
 
 }
@@ -1001,7 +1001,7 @@ main {
 		width: 60% ;
 	}
 	
-	.kurven h1{
+	.kurven h2{
 		font-size: 2.5vw;
 	}
 }
