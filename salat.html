@@ -18,31 +18,31 @@
 <body>
     <header> <a href="index.html" class="logo"><img src="images/cr_logo.png" alt="logo"></a>
         <div id="tele"> <a href="tel:00-000-000"><img src="images/phone.png" alt="telefon ikon"></a> </div>
-        <div id="lokation"><a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img src="images/pin_aarhus.png" alt="lokation">
+        <div id="lokation"><a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img src="images/pin_aarhus.png" alt="Chicago Roasthouses lokation">
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
             </a> </div>
-         <!-- NAVIGATION -->
-        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="">
+        <!-- NAVIGATION -->
+        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="din kurv">
                 Kurv
             </a>
-			<a href="kurv.html" class="kurvlap laptop ">
-				<img src="images/kurv.png" alt="">
-                
-            </a> 
-			<a href="menu.html"><img src="images/menu.png" alt="" class="navb mobil">
+            <a href="kurv.html" class="kurvlap laptop ">
+                <img src="images/kurv.png" alt="din kurv">
+
+            </a>
+            <a href="menu.html"><img src="images/menu.png" alt="Chicago Roasthouses menukort" class="navb mobil">
                 Menu
-            </a> <a href=""><img src="images/selskab.png" alt="" class="navb mobil">
+            </a> <a href=""><img src="images/selskab.png" alt="buffet til selskaber" class="navb mobil">
                 Selskab
             </a>
             <div class="dropdown">
-                <button  class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere mobil">
-                    
+                <button class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere mobil">
+
                 </button>
-				<button  class="dropbtn merelap" onClick="klikfunktion()"> 
+                <button class="dropbtn merelap" onClick="klikfunktion()">
                     Mere
                 </button>
-				
+
                 <div id="mydropdown" class="dropcontent">
                     <a href="koedet.html">
                         Kødet
@@ -66,30 +66,38 @@
             <li>Salat</li>
         </ul>
         <h1>Vælg salat</h1><br>
-         <div class="knapperne"><button type="button" onclick="location.href = 'kartoffel.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'sauce.html';" id="frem" class=" frem">Frem</button></div>
+        <div class="knapperne"><button type="button" onclick="location.href = 'kartoffel.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'sauce.html';" id="frem" class=" frem">Frem</button></div>
         <br>
         <div class="flex-container">
             <div class="menupunkt">
                 <h3>Hjemmelavet coleslaw</h3>
-                <img src="images/coleslaw.png" alt="coleslaw" class="mad">
+                <img src="images/coleslaw.png" alt="sprød coleslaw" class="mad">
                 <p class="pris"> 20,- </p>
-				<div class="number">
-                    <button onClick="minusfunktion(antalsa1)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                <div class="number">
+                    <button onClick="minusfunktion(antalsa1)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
-                    <input type="number"  id="antalsa1" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalsa1)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <input type="number" id="antalsa1" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion(antalsa1)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
             </div>
             <div class="menupunkt">
                 <h3>Mixed salat</h3>
-                <img src="images/mixedsalat.png" alt="mixedsalat" class="mad">
-				<p class="pris"> 22,- </p>
-				<div class="number">
-                    <button onClick="minusfunktion(antalsa2)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                <img src="images/mixedsalat.png" alt="frisk mixed salat" class="mad">
+                <p class="pris"> 22,- </p>
+                <div class="number">
+                    <button onClick="minusfunktion(antalsa2)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
-                    <input type="number"  id="antalsa2" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalsa2)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <input type="number" id="antalsa2" class="antal" placeholder="0" min="0" max="10">
+                    <button onClick="plusfunktion(antalsa2)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
             </div>
@@ -101,7 +109,7 @@
 
 
 
-        <div class="fotdiv fotdiv2"> <a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img class="pinmobil" src="images/pin_aarhus.png" alt="lokation"><img src="images/pin_aarhus_laptop.png" class="pinlaptop" alt="lokation">
+        <div class="fotdiv fotdiv2"> <a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img class="pinmobil" src="images/pin_aarhus.png" alt="lokation"><img src="images/pin_aarhus_laptop.png" class="pinlaptop" alt="Chicago Roasthouses lokation">
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
 
@@ -113,6 +121,8 @@
 
 
     </footer>
-	<script src="script/salatScript.js"></script>
+    <script src="script/salatScript.js"></script>
     <script src="script/nav_script.js"></script>
-</body></html>
+</body>
+
+</html>

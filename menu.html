@@ -16,33 +16,33 @@
 </head>
 
 <body>
-    <header> <a href="index.html" class="logo"><img src="images/cr_logo.png" alt="logo"></a>
-        <div id="tele"> <a href="tel:00-000-000"><img src="images/phone.png" alt="telefon ikon"></a> </div>
-        <div id="lokation"><a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img src="images/pin_aarhus.png" alt="lokation">
+    <header> <a href="index.html" class="logo"><img src="images/cr_logo.png" alt="Chicago Roasthouses logo"></a>
+        <div id="tele"> <a href="tel:00-000-000"><img src="images/phone.png" alt="kontakt os ikon"></a> </div>
+        <div id="lokation"><a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img src="images/pin_aarhus.png" alt="Chicago Roasthouses lokation">
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
             </a> </div>
         <!-- NAVIGATION -->
-        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="">
+        <nav> <a href="kurv.html" class="kurvlap mobil"><img src="images/kurv.png" alt="din kurv">
                 Kurv
             </a>
-			<a href="kurv.html" class="kurvlap laptop ">
-				<img src="images/kurv.png" alt="">
-                
-            </a> 
-			<a href="menu.html"><img src="images/menu.png" alt="" class="navb mobil">
+            <a href="kurv.html" class="kurvlap laptop ">
+                <img src="images/kurv.png" alt="din kurv">
+
+            </a>
+            <a href="menu.html"><img src="images/menu.png" alt="Chicago Roasthouses menukort" class="navb mobil">
                 Menu
-            </a> <a href=""><img src="images/selskab.png" alt="" class="navb mobil">
+            </a> <a href=""><img src="images/selskab.png" alt="buffet til selskaber" class="navb mobil">
                 Selskab
             </a>
             <div class="dropdown">
-                <button  class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="" class="mere mobil">
-                    
+                <button class="dropbtn" onClick="klikfunktion()"> <img src="images/mere.png" alt="flere oplysninger" class="mere mobil">
+
                 </button>
-				<button  class="dropbtn merelap" onClick="klikfunktion()"> 
+                <button class="dropbtn merelap" onClick="klikfunktion()">
                     Mere
                 </button>
-				
+
                 <div id="mydropdown" class="dropcontent">
                     <a href="koedet.html">
                         Kødet
@@ -67,43 +67,55 @@
         <h1> Menukort</h1><br>
         <div class="knapperne"><button type="button" onclick="location.href = 'index.html';" class="tilbage">Tilbage</button> <button type="button" onclick="location.href = 'kartoffel.html';" class=" frem" id="frem">Frem</button></div>
         <br>
-		
+
         <div class="flex-container">
             <div class="menupunkt">
                 <h3>Chicago Roast</h3>
-                <img src="images/roast.png" alt="roastkoed" class="mad">
+                <img src="images/roast.png" alt="Chicago Roast kød" class="mad">
                 <p class="pris"> 75,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm1)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm1)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm1" id="antalm1" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm1)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm1)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
 
             </div>
             <div class="menupunkt">
                 <h3>Chicago Roast menu</h3>
-                <img src="images/roastmenu.png" alt="roast menu" class="mad">
+                <img src="images/roastmenu.png" alt="Chicago roast menu" class="mad">
                 <p class="pris"> 125,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm2)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm2)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm2" id="antalm2" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm2)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm2)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
 
             </div>
             <div class="menupunkt">
                 <h3>Spareribs</h3>
-                <img src="images/ribs.png" alt="spareribs" class="mad">
+                <img src="images/ribs.png" alt="marinerede spareribs" class="mad">
                 <p class="pris">75,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm3)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm3)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm3" id="antalm3" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm3)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm3)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
 
@@ -114,34 +126,46 @@
                 <img src="images/ribsmenu.png" alt="spareribs menu" class="mad">
                 <p class="pris"> 125,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm4)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm4)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm4" id="antalm4" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm4)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm4)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
             </div>
             <div class="menupunkt">
                 <h3>Turkey Roast</h3>
-                <img src="images/turkey.png" alt="turkey" class="mad">
+                <img src="images/turkey.png" alt="saftig turkey roast" class="mad">
                 <p class="pris"> 75,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm5)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm5)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm5" id="antalm5" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm5)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm5)" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
             </div>
             <div class="menupunkt">
                 <h3>Turkey Roast menu</h3>
-                <img src="images/turkeymenu.png" alt="turkey" class="mad">
+                <img src="images/turkeymenu.png" alt="saftig turkey menu" class="mad">
                 <p class="pris"> 125,- </p>
                 <div class="number">
-                    <button onClick="minusfunktion(antalm6)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"/></svg></button>
+                    <button onClick="minusfunktion(antalm6)" class="minus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" /></svg></button>
 
                     <input type="number" name="antalm6" id="antalm6" class="antal" placeholder="0" min="0" max="10">
-                    <button onClick="plusfunktion(antalm6" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/></svg></button>
+                    <button onClick="plusfunktion(antalm6" class="plus"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" /></svg></button>
                 </div>
 
 
@@ -150,11 +174,11 @@
         </div>
     </main>
     <footer>
-        <div class="fotdiv"> <a href="tel:00-000-000"><img class="telemobil" src="images/phone.png" alt="telefon ikon"> <img src="images/phone_lap.png" class="telelaptop" alt="kontakt os her"></a></div>
+        <div class="fotdiv"> <a href="tel:00-000-000"><img class="telemobil" src="images/phone.png" alt="kontakt os ikon"> <img src="images/phone_lap.png" class="telelaptop" alt="kontakt os her"></a></div>
 
 
 
-        <div class="fotdiv fotdiv2"> <a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img class="pinmobil" src="images/pin_aarhus.png" alt="lokation"><img src="images/pin_aarhus_laptop.png" class="pinlaptop" alt="lokation">
+        <div class="fotdiv fotdiv2"> <a href="https://goo.gl/maps/wTuoTNnjoAePJtcT6"><img class="pinmobil" src="images/pin_aarhus.png" alt="Chicago Roasthouses lokation"><img src="images/pin_aarhus_laptop.png" class="pinlaptop" alt="Chicago Roasthouses lokation">
                 <!--	Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
 
 
@@ -170,4 +194,6 @@
 
     <script src="script/menuScript.js"></script>
     <script src="script/nav_script.js"></script>
-</body></html>
+</body>
+
+</html>
