@@ -33,7 +33,7 @@ a {
 p {
 
     font-family: 'Libre Franklin', sans-serif;
-    padding: 0% 10%;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -290,29 +290,37 @@ h3 {
 
 /* Underside - om kødet */
 
+
+
 .flex {
     display: flex;
     flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+
+.kobillede{
+	width: 60%
 }
 
 .flex p{
-        margin: auto;
+        padding: 10px 0; 
         align-items: center;
     }
 
 .flexbox-parent {
+	width: 80%;
+	margin: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.kobillede {
-        width: 50%;
-	margin: auto;
-    }
+
 
 .udskaering {
-        width: 40%;
+        width: 55%;
 	margin: auto;
     }
 
@@ -592,23 +600,38 @@ nav a {
 /* om os underside style */
 
 .leifprofil {
-    width: 100%;
-    padding: 2% 4%;
+		width: 40%;
+		margin: auto;
+      
+    }
+
+    
+
+  
+
+    .jubileum {
+        width: 80%;
+    }
+
+.jubileumtxt{
+	padding: 40px;
+}
+
+.omosfuldflex{
+	display: flex;
+	flex-direction: column;
+	
+	margin: auto;
 }
 
 .omosflex {
 
     display: flex;
-    flex-direction: row;
+   
 }
 
-#omossoloet {
-    display: none;
-}
 
 .jubileum {
-    width: 70%;
-    display: block;
     margin: 0 auto;
     padding: 5% 0px 2.5% 0px;
 }
@@ -869,26 +892,20 @@ main {
 
     /* Underside - om kødet */
 
-    .flex {
-        align-content: space-around;
-    }
-
-    .flex p{
-        margin: auto;
-        align-items: center;
-    }
+  
+   
 
     .flexbox-parent {
         justify-content: center;
     }
     .kobillede {
         width: 40%;
-        padding: 0% 0% 0% 10%;
+     
     }
 
     .udskaering {
         width: 40%;
-        padding: 0% 10% 0% 0%;
+     
     }
 
     .garanti {
@@ -916,32 +933,7 @@ main {
     }
 
     /* om os underside style laptop */
-    .leifprofil {
-        width: 42%;
-        margin: 2% 0px 2% 55%;
-    }
-
-    .omostxt {
-        margin: 4% 55% 0px 0px;
-    }
-
-    #omossoloet {
-        display: block;
-    }
-
-    #omossoloto {
-        display: none;
-    }
-
-
-    .jubileum {
-        width: 30%;
-    }
-
-    .jubileumtxt {
-        margin: 0.2% 30%;
-    }
-
+    
 
 
     .fotdiv {
@@ -998,7 +990,10 @@ main {
 
 
 }
-	
+	.omosfuldflex{
+		
+		width: 60%;
+	}
 	/*kurv*/
 	.flex-container2{
 		width: 60% ;
