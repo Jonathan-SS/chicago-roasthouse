@@ -22,7 +22,9 @@ a {
     text-decoration: none;
 }
 
-.knap, .frem, .tilbage {
+.knap,
+.frem,
+.tilbage {
     font-family: 'Vast Shadow', cursive;
 }
 
@@ -36,10 +38,14 @@ p {
 
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Roboto Slab', serif;
-	text-decoration: none;
-	color: #804844;
+    text-decoration: none;
+    color: #804844;
 }
 
 h1 {
@@ -134,27 +140,27 @@ ul.breadcrumb {
     list-style: none;
     background-color: transparent;
     color: #804844;
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 ul.breadcrumb li {
     display: inline;
     font-size: 2vw;
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 ul.breadcrumb li + li:before {
     padding: 8px;
     color: #804844;
     content: "/\00a0";
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 ul.breadcrumb li a {
     color: #804844;
     text-decoration: none;
-	font-size: 2vw;
-	opacity: 0.8;
+    font-size: 2vw;
+    opacity: 0.8;
 }
 
 ul.breadcrumb li a:hover {
@@ -167,10 +173,10 @@ ul.breadcrumb li a:hover {
 
 /* Kontakt underside */
 
-.flexkasse{
-	width: 80%;
-	margin: auto;
-	text-align: center;
+.flexkasse {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 
 .ugensdage {
@@ -197,17 +203,11 @@ ul.breadcrumb li a:hover {
     flex-direction: column;
 }
 
-.menupunkt {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    background-image: url("/images/tree.png");
-    background-size: cover;
-    position: relative;
-    z-index: 4;
-}
 
 /* images/tree.png <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kbza - www.freepik.com</a> */
+
+
+
 
 .menupunkt h3 {
 
@@ -230,7 +230,9 @@ h3 {
 
 }
 
-.frem, .tilbage, .knap1 {
+.frem,
+.tilbage,
+.knap1 {
     border: none;
     width: 40%;
     background-color: #fec312;
@@ -243,15 +245,15 @@ h3 {
     margin: auto;
     cursor: pointer;
     border-radius: 50px;
-	box-shadow: inset 0px 0px 10px -1px rgba(0,0,0,0.51);
-	box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.51);
-	
-	
+    box-shadow: inset 0px 0px 10px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 2px 2px 10px -1px rgba(0, 0, 0, 0.51);
+
+
 }
 
-.knap1{
-	min-width: 200px;
-	max-width: 300px;
+.knap1 {
+    min-width: 200px;
+    max-width: 300px;
 }
 
 
@@ -261,6 +263,70 @@ h3 {
     color: white;
     opacity: 70%;
 }
+
+
+/* plus og minus knapper og input */
+.number {
+
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    width: 35%;
+    z-index: 4;
+}
+
+
+.minus,
+.plus {
+    width: 25%;
+    min-width: 20px;
+    /* min-height: 30px; */
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    z-index: 100;
+}
+
+input {
+    height: 10%;
+    width: auto;
+    text-align: center;
+    font-size: 3vw;
+    background-color: transparent;
+    color: #fff;
+
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.flex-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.menupunkt {
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    background-image: url("tree.png");
+    background-size: cover;
+    position: relative;
+    box-shadow: 5px 7px 6px 2px rgba(0, 0, 0, 0.51);
+
+}
+
+
 
 /* alt mad */
 
@@ -295,23 +361,23 @@ h3 {
 .flex {
     display: flex;
     flex-direction: row;
-	align-items: center;
-	justify-content: space-evenly;
-	
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
-.kobillede{
-	width: 60%
+.kobillede {
+    width: 60%
 }
 
-.flex p{
-        padding: 10px 0; 
-        align-items: center;
-    }
+.flex p {
+    padding: 10px 0;
+    align-items: center;
+}
 
 .flexbox-parent {
-	width: 80%;
-	margin: auto;
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -320,14 +386,15 @@ h3 {
 
 
 .udskaering {
-        width: 55%;
-	margin: auto;
-    }
+    width: 55%;
+    margin: auto;
+}
 
 .garanti {
     width: 40%;
-	margin: auto;
+    margin: auto;
 }
+
 /* Kurv */
 
 .flex-container2 {
@@ -336,38 +403,44 @@ h3 {
     background-size: cover;
     display: flex;
     background-image: url("tree.png");
-	
+
 }
 
 .kurven {
     margin-bottom: 10px;
-	width: 100%;
+    width: 100%;
     padding: 5%;
-	display: flex;
-	justify-content: space-between;
-	text-align: left;
-	color: #fff;
-}
-.kurven h2{
-	text-align: left;
-	color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #fff;
+    box-shadow: 5px 7px 6px 2px rgba(0, 0, 0, 0.51);
 }
 
-.kurvpris h2, .kurvpris div{
-	text-align:center;
+.kurven h2 {
+    text-align: left;
+    color: #fff;
+}
+
+.kurvpris h2,
+.kurvpris div {
+    text-align: center;
 
 }
 
-.maengde, .kurvpris{
-	width: 20%;
+.maengde,
+.kurvpris {
+    width: 20%;
 }
 
-.produkt{
-	width: 60%
+.produkt {
+    width: 60%
 }
 
-.kurvpris div,.maengde div, .produkt div{
-	font-size: 2vw
+.kurvpris div,
+.maengde div,
+.produkt div {
+    font-size: 2vw
 }
 
 
@@ -375,8 +448,9 @@ h3 {
     background-color: #fdf4e6;
 
 }
-.dropcontent  .current {
-	color: #fdf4e6;
+
+.dropcontent .current {
+    color: #fdf4e6;
 }
 
 
@@ -444,70 +518,16 @@ h3 {
     display: block;
 }
 
-/* plus og minus knapper og input */
-.number {
-
-   position: absolute;
-    bottom: 30%;
-    right: 0;
-    width: 35%;
-    z-index: 4;
-}
 
 
-.minus,
-.plus {
-      width: 25%;
-    min-width: 20px;
-    /* min-height: 30px; */
-    border-radius: 50%;
-    border: none;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    background-color: transparent;
-    z-index: 100;
-}
-
-input {
-    height: 10%;
-    width: auto;
-    text-align: center;
-    font-size: 3vw;
-    background-color: transparent;
-    color: #fff;
-
-    border: none;
-    border-radius: 4px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
-
-.flex-container {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    z-index: -1;
-}
-
-.menupunkt {
-    width: 100%;
-	min-height: 100px;
-    height: 10%;
-    margin-bottom: 20px;
-    background-image: url("tree.png");
-    background-size: cover;
-    position: relative;
-	box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.51);
+.logo {
+    width: 50%;
+    margin-right: auto;
+    padding: 1%;
 
 }
 
-
-
-/*header*/
+/*headeren*/
 header {
     height: 10%;
     display: flex;
@@ -515,13 +535,6 @@ header {
     align-items: center;
     align-content: space-between;
     z-index: -2;
-}
-
-.logo {
-    width: 50%;
-    margin-right: auto;
-    padding: 1%;
-
 }
 
 #tele {
@@ -600,34 +613,34 @@ nav a {
 /* om os underside style */
 
 .leifprofil {
-		width: 40%;
-		margin: auto;
-      
-    }
+    width: 40%;
+    margin: auto;
 
-    
-
-  
-
-    .jubileum {
-        width: 80%;
-    }
-
-.jubileumtxt{
-	padding: 40px;
 }
 
-.omosfuldflex{
-	display: flex;
-	flex-direction: column;
-	
-	margin: auto;
+
+
+
+
+.jubileum {
+    width: 80%;
+}
+
+.jubileumtxt {
+    padding: 40px;
+}
+
+.omosfuldflex {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
 }
 
 .omosflex {
 
     display: flex;
-   
+
 }
 
 
@@ -648,16 +661,16 @@ main {
     margin-bottom: 100px;
 }
 
-::placeholder{
-	color: #fdf4e6
+::placeholder {
+    color: #fdf4e6
 }
 
 /* Til vores mobil version */
 
 @media only screen and (max-width: 700px) {
-	
-	
-	
+
+
+
     .merelap {
         display: none;
     }
@@ -685,14 +698,14 @@ main {
 
     }
 
-	.laptop{
-		display: none;
-	}
+    .laptop {
+        display: none;
+    }
 
-	.kurven h1{
-		font-size: 4vw;
-	}
-   
+    .kurven h1 {
+        font-size: 4vw;
+    }
+
 }
 
 
@@ -763,7 +776,7 @@ main {
         display: none;
     }
 
-    nav a{
+    nav a {
         color: #fdf4e6;
 
     }
@@ -811,15 +824,15 @@ main {
 
 
     /* Forside laptop syling */
-   
-	.vidcontain{
-		
-		width: 60%;
-	}
- 
+
+    .vidcontain {
+
+        width: 60%;
+    }
+
     .forsidepics {
         margin: auto;
-		height: auto;
+        height: auto;
         width: 85%;
         display: flex;
         flex-direction: row;
@@ -829,9 +842,10 @@ main {
 
     .forsidepics img {
         width: 30%;
-		margin: auto;
+        margin: auto;
         padding: 10px;
         background-color: #804844;
+        box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.51);
     }
 
     .laptopikoner {
@@ -862,8 +876,8 @@ main {
 
 
     .laptopikoner a {
-		margin: auto;
-		text-align: center;
+        margin: auto;
+        text-align: center;
         color: #faebd7;
         font-size: 2vh;
     }
@@ -873,7 +887,7 @@ main {
 
     .knapperne {
         display: flex;
-		width: 55%;
+        width: 55%;
         flex-direction: row;
         margin-left: auto;
         justify-content: space-around;
@@ -892,20 +906,21 @@ main {
 
     /* Underside - om kødet */
 
-  
-   
+
+
 
     .flexbox-parent {
         justify-content: center;
     }
+
     .kobillede {
         width: 40%;
-     
+
     }
 
     .udskaering {
         width: 40%;
-     
+
     }
 
     .garanti {
@@ -933,7 +948,7 @@ main {
     }
 
     /* om os underside style laptop */
-    
+
 
 
     .fotdiv {
@@ -954,52 +969,79 @@ main {
 
     /* kontakt */
 
-	.flexkasse{
-		display: flex;
-		justify-content: space-between;
-	}
-	
-	.kontaktsted{
-		width:50%;
-	}
-	
-	.ugensdage{
-		margin: 0 auto;
-		width: 40%;
-	}
-   
- 
+    .flexkasse {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .kontaktsted {
+        width: 50%;
+    }
+
+    .ugensdage {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+
     /*menu*/
 	
-	.flex-container{
-		width:50%;
-	}
-	
-	.pris{
-		top:20%;
-		right: 12%;
-		padding: 0;
-		font-size: 2vw
-	}
 	
 	
-	
-.menupunkt h3 {
 
-    font-size: 2vw;
+    .flex-container {
+        width: 50%;
+    }
+
+    .pris {
+        top: 20%;
+        right: 16%;
+        padding: 0;
+        font-size: 2vw
+    }
 
 
-}
-	.omosfuldflex{
+
+    .menupunkt h3 {
+
+        font-size: 2vw;
+
+
+    }
+
+    .omosfuldflex {
+
+        width: 60%;
+    }
+	
+	/*gitter opstilling på menu,kartoffel og sauce*/
+	
+	.gitter{
+		    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 		
-		width: 60%;
-	}
-	/*kurv*/
-	.flex-container2{
-		width: 60% ;
+		
 	}
 	
-	.kurven h2{
-		font-size: 2.5vw;
+	.gitterpunkt{
+		width: 45%;
+	
+		
+	
+		
+		
 	}
+	.number{
+		width: 40%;
+	}
+    /*kurv*/
+    .flex-container2 {
+        width: 60%;
+    }
+
+    .kurven h2 {
+        font-size: 2.5vw;
+    }
 }
