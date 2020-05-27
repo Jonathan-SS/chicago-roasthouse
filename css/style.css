@@ -619,9 +619,6 @@ nav a {
 }
 
 
-
-
-
 .jubileum {
     width: 80%;
 }
@@ -833,7 +830,7 @@ main {
     .forsidepics {
         margin: auto;
         height: auto;
-        width: 85%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -843,9 +840,7 @@ main {
     .forsidepics img {
         width: 30%;
         margin: auto;
-        padding: 10px;
-        background-color: #804844;
-        box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.51);
+        box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.4);
     }
 
     .laptopikoner {
@@ -985,9 +980,9 @@ main {
 
 
     /*menu*/
-	
-	
-	
+
+
+
 
     .flex-container {
         width: 50%;
@@ -1013,29 +1008,31 @@ main {
 
         width: 60%;
     }
-	
-	/*gitter opstilling på menu,kartoffel og sauce*/
-	
-	.gitter{
-		    width: 80%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-		
-		
-	}
-	
-	.gitterpunkt{
-		width: 45%;
-	
-		
-	
-		
-		
-	}
-	.number{
-		width: 40%;
-	}
+
+    /*gitter opstilling på menu,kartoffel og sauce*/
+
+    .gitter {
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+
+    }
+
+    .gitterpunkt {
+        width: 45%;
+
+
+
+
+
+    }
+
+    .number {
+        width: 40%;
+    }
+
     /*kurv*/
     .flex-container2 {
         width: 60%;
